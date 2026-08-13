@@ -9,7 +9,7 @@ import {
   FaMinus,
 } from "react-icons/fa";
 
-import workerImg from "../../assets/Advantage.Webp";
+import workerImg from "../../assets/Advantage.webp";
 
 import "./Advantage.css"
 const accordionData = [

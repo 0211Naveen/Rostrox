@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { useNavigate } from "react-router-dom";
 
-import logo from "../../assets/Footer.webp";
+import logo from "../../assets/footer.webp";
 
 import {
   FaFacebookF,
