@@ -2,12 +2,11 @@ import "./FacilityPage.css";
 import React, { useState } from 'react';
 import AttendanceTools from "../AttendanceTools/AttendanceTools";
 
-
+import { FaUsers } from "react-icons/fa";
 import {
     FaCheck,
     FaGlobeAmericas,
     FaMapMarkerAlt,
-    FaUsers,
     FaPlay,
     FaQuoteLeft,
     FaChevronDown,
