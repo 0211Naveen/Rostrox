@@ -1,0 +1,401 @@
+/* =========================================
+   COMPETITIVE EDGE SECTION
+========================================= */
+
+.competitive-edge-section {
+    width: 100%;
+
+    padding: 10px 0 35px;
+
+    background: #ffffff;
+}
+
+.competitive-edge-container {
+    width: 100%;
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+    padding: 0 45px;
+}
+
+
+/* =========================================
+   LAYOUT
+========================================= */
+
+.competitive-edge-layout {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: 1.35fr 0.9fr;
+
+    align-items: center;
+
+    gap: 90px;
+}
+
+
+/* =========================================
+   LEFT CONTENT
+========================================= */
+
+.competitive-edge-content {
+    padding-left: 35px;
+}
+
+.competitive-edge-content h2 {
+    position: relative;
+
+    display: inline-block;
+
+    margin: 0 0 12px;
+
+    color: #000000;
+
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.competitive-edge-shape {
+    position: absolute;
+
+    right: -28px;
+    bottom: 7px;
+
+    width: 20px;
+    height: 27px;
+
+    background: #078ed5;
+
+    border-radius: 4px;
+
+    transform: rotate(-8deg);
+}
+
+.competitive-edge-content p {
+    max-width: 650px;
+
+    margin: 0;
+
+    color: #5c6370;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   RIGHT CARD
+========================================= */
+
+.competitive-edge-card {
+    width: 100%;
+    max-width: 520px;
+
+    padding: 38px 42px 42px;
+
+    background: #ffffff;
+
+    border: 1px solid #d8dce3;
+    border-radius: 15px;
+
+    box-shadow: 0 15px 45px rgba(26, 45, 80, 0.12);
+}
+
+
+/* =========================================
+   LOGO
+========================================= */
+
+.competitive-edge-logo {
+    margin-bottom: 38px;
+}
+
+.competitive-edge-logo img {
+    display: block;
+
+    width: auto;
+    max-width: 220px;
+    height: 55px;
+
+    object-fit: contain;
+}
+
+
+/* =========================================
+   FEATURE LIST
+========================================= */
+
+.competitive-edge-list {
+    width: 100%;
+}
+
+.competitive-edge-item {
+    width: 100%;
+
+    display: flex;
+    align-items: flex-start;
+
+    gap: 14px;
+
+    margin-bottom: 37px;
+}
+
+.competitive-edge-check {
+    width: 35px;
+    height: 35px;
+
+    min-width: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2px;
+
+    color: #0cbe4d;
+
+    border: 1px solid #5f6977;
+    border-radius: 50%;
+
+    font-size: 17px;
+}
+
+.competitive-edge-item p {
+    margin: 0;
+
+    color: #253653;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.45;
+}
+
+
+/* =========================================
+   BUTTON
+========================================= */
+
+.competitive-edge-btn {
+    width: 100%;
+
+    padding: 18px 25px;
+
+    color: #ffffff;
+    background: #213fd8;
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 17px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.competitive-edge-btn:hover {
+    background: #1732bd;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    .competitive-edge-section {
+        padding: 55px 0;
+    }
+
+    .competitive-edge-container {
+        max-width: 800px;
+
+        padding: 0 25px;
+    }
+
+    .competitive-edge-layout {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+    }
+
+    .competitive-edge-content {
+        padding-left: 0;
+
+        text-align: center;
+    }
+
+    .competitive-edge-content h2 {
+        font-size: 35px;
+    }
+
+    .competitive-edge-content p {
+        max-width: 600px;
+
+        margin: 0 auto;
+
+        font-size: 17px;
+    }
+
+    .competitive-edge-card {
+        max-width: 550px;
+
+        margin: 0 auto;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .competitive-edge-section {
+        padding: 45px 0;
+    }
+
+    .competitive-edge-container {
+        padding: 0 18px;
+    }
+
+    .competitive-edge-layout {
+        gap: 35px;
+    }
+
+
+    /* CONTENT */
+
+    .competitive-edge-content h2 {
+        margin-bottom: 12px;
+
+        font-size: 27px;
+        line-height: 1.35;
+    }
+
+    .competitive-edge-shape {
+        right: -20px;
+        bottom: 5px;
+
+        width: 14px;
+        height: 20px;
+    }
+
+    .competitive-edge-content p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+
+    /* CARD */
+
+    .competitive-edge-card {
+        max-width: 100%;
+
+        padding: 30px 25px;
+
+        border-radius: 13px;
+    }
+
+
+    /* LOGO */
+
+    .competitive-edge-logo {
+        margin-bottom: 30px;
+    }
+
+    .competitive-edge-logo img {
+        max-width: 170px;
+        height: 45px;
+    }
+
+
+    /* LIST */
+
+    .competitive-edge-item {
+        gap: 12px;
+
+        margin-bottom: 27px;
+    }
+
+    .competitive-edge-check {
+        width: 30px;
+        height: 30px;
+
+        min-width: 30px;
+
+        font-size: 14px;
+    }
+
+    .competitive-edge-item p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+
+    /* BUTTON */
+
+    .competitive-edge-btn {
+        padding: 15px 20px;
+
+        font-size: 15px;
+    }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 400px) {
+
+    .competitive-edge-container {
+        padding: 0 14px;
+    }
+
+    .competitive-edge-content h2 {
+        font-size: 24px;
+    }
+
+    .competitive-edge-content p {
+        font-size: 13px;
+    }
+
+    .competitive-edge-card {
+        padding: 25px 18px;
+    }
+
+    .competitive-edge-logo img {
+        max-width: 150px;
+        height: 40px;
+    }
+
+    .competitive-edge-item {
+        margin-bottom: 23px;
+    }
+
+    .competitive-edge-item p {
+        font-size: 13px;
+    }
+
+    .competitive-edge-check {
+        width: 27px;
+        height: 27px;
+
+        min-width: 27px;
+
+        font-size: 12px;
+    }
+
+}

@@ -1,0 +1,699 @@
+/* =========================================
+   OVERTIME HERO SECTION
+========================================= */
+
+.overtime-hero {
+    width: 100%;
+
+    padding: 55px 0;
+
+    background: #ffffff;
+}
+
+.overtime-hero-container {
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 55px auto;
+    padding: 0 35px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+
+    gap: 60px;
+}
+
+
+/* =========================================
+   LEFT CONTENT
+========================================= */
+
+.overtime-hero-content {
+    width: 100%;
+    max-width: 560px;
+}
+
+/* .overtime-hero-content p {
+    position: relative;
+
+    margin: 0 0 22px;
+
+    color: #000000;
+
+    font-size: px;
+    font-weight: 700;
+    line-height: 1.25;
+} */
+
+.overtime-blue-shape {
+    display: inline-block;
+
+    width: 16px;
+    height: 20px;
+
+    margin-left: 8px;
+
+    background: #078ed5;
+
+    border-radius: 3px;
+
+    transform: rotate(-8deg);
+}
+
+.overtime-hero-content p {
+    max-width: 540px;
+
+    margin: 0 0 28px;
+
+    color: #000000;
+    font-weight: 700;
+
+    font-size: 22px;
+    line-height: 1.65;
+}
+
+
+/* =========================================
+   BUTTON
+========================================= */
+
+.overtime-hero-btn {
+    padding: 14px 25px;
+
+    color: #ffffff;
+    background: #173de8;
+
+    border: none;
+    border-radius: 7px;
+
+    font-size: 15px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.overtime-hero-btn:hover {
+    background: #0d2fc7;
+
+    transform: translateY(-3px);
+}
+
+
+/* =========================================
+   RIGHT IMAGE
+========================================= */
+
+.overtime-hero-image {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overtime-hero-image img {
+    display: block;
+
+    width: 100%;
+    max-width: 480px;
+    height: 390px;
+
+    object-fit: contain;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    .overtime-hero {
+        padding: 50px 0;
+    }
+
+    .overtime-hero-container {
+        max-width: 800px;
+
+        padding: 0 25px;
+
+        gap: 35px;
+    }
+
+    .overtime-hero-content h1 {
+        font-size: 31px;
+    }
+
+    .overtime-hero-content p {
+        font-size: 15px;
+    }
+
+    .overtime-hero-image img {
+        max-width: 380px;
+        height: 330px;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .overtime-hero {
+        padding: 40px 0 30px;
+    }
+
+    .overtime-hero-container {
+        width: 100%;
+        max-width: 100%;
+
+        padding: 0 18px;
+
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+    }
+
+
+    /* CONTENT */
+
+    .overtime-hero-content {
+        max-width: 100%;
+
+        text-align: center;
+    }
+
+    .overtime-hero-content h1 {
+        margin-bottom: 18px;
+
+        font-size: 27px;
+        line-height: 1.35;
+    }
+
+    .overtime-hero-content h1 br {
+        display: none;
+    }
+
+    .overtime-blue-shape {
+        width: 12px;
+        height: 17px;
+
+        margin-left: 5px;
+    }
+
+    .overtime-hero-content p {
+        max-width: 500px;
+
+        margin: 0 auto 24px;
+
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+
+    /* BUTTON */
+
+    .overtime-hero-btn {
+        padding: 13px 23px;
+
+        font-size: 14px;
+    }
+
+
+    /* IMAGE */
+
+    .overtime-hero-image img {
+        max-width: 340px;
+        height: 280px;
+    }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+
+    .overtime-hero {
+        padding: 10px 0 25px;
+    }
+
+    .overtime-hero-container {
+        padding: 0 15px;
+
+        gap: 25px;
+    }
+
+    .overtime-hero-content h1 {
+        font-size: 23px;
+        line-height: 1.4;
+    }
+
+    .overtime-hero-content p {
+        font-size: 13px;
+        line-height: 1.65;
+    }
+
+    .overtime-hero-btn {
+        padding: 12px 21px;
+
+        font-size: 13px;
+    }
+
+    .overtime-hero-image img {
+        width: 100%;
+        max-width: 290px;
+        height: 240px;
+    }
+
+}
+
+
+
+
+
+
+
+/* =========================================
+   WHY CHOOSE OVERTIME TRACKING
+========================================= */
+
+.overtime-choose-section {
+    position: relative;
+
+    padding: 65px 0 0;
+
+    background: #ffffff;
+}
+
+.overtime-choose-container {
+    max-width: 1200px;
+}
+
+
+/* =========================================
+   HEADING
+========================================= */
+
+.overtime-choose-heading {
+    margin-bottom: 30px;
+
+    text-align: center;
+}
+
+.overtime-choose-heading h2 {
+    margin: 0;
+
+    color: #000000;
+
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+
+/* =========================================
+   SCROLL LAYOUT
+========================================= */
+
+.overtime-scroll-layout {
+    position: relative;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 70px;
+}
+
+
+/* =========================================
+   LEFT CONTENT
+========================================= */
+
+.overtime-scroll-content {
+    min-width: 0;
+}
+
+.overtime-scroll-item {
+    min-height: 90vh;
+
+    display: flex;
+    align-items: center;
+
+    opacity: 0.3;
+
+    transform: translateY(30px);
+
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+}
+
+.overtime-scroll-item.active {
+    opacity: 1;
+
+    transform: translateY(0);
+}
+
+.overtime-scroll-text {
+    max-width: 500px;
+}
+
+.overtime-scroll-text h3 {
+    margin: 0 0 15px;
+
+    color: #000000;
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.overtime-scroll-text p {
+    margin: 0;
+
+    color: #344054;
+
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   RIGHT STICKY COLUMN
+========================================= */
+
+.overtime-sticky-column {
+    position: relative;
+}
+
+.overtime-sticky-image {
+    position: sticky;
+
+    top: 130px;
+
+    width: 100%;
+    height: calc(100vh - 170px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* =========================================
+   IMAGE CHANGE
+========================================= */
+
+.overtime-sticky-image img {
+    position: absolute;
+
+    width: 100%;
+    max-width: 470px;
+    max-height: 470px;
+
+    object-fit: contain;
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    transform: translateY(35px) scale(0.96);
+
+    transition:
+        opacity 0.5s ease,
+        visibility 0.5s ease,
+        transform 0.5s ease;
+}
+
+.overtime-sticky-image img.active {
+    opacity: 1;
+
+    visibility: visible;
+
+    transform: translateY(0) scale(1);
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    .overtime-choose-section {
+        padding-top: 55px;
+    }
+
+    .overtime-choose-container {
+        max-width: 750px;
+
+        padding: 0 25px;
+    }
+
+    .overtime-choose-heading h2 {
+        font-size: 31px;
+    }
+
+    .overtime-scroll-layout {
+        gap: 35px;
+    }
+
+    .overtime-scroll-item {
+        min-height: 75vh;
+    }
+
+    .overtime-scroll-text h3 {
+        font-size: 24px;
+    }
+
+    .overtime-scroll-text p {
+        font-size: 15px;
+    }
+
+    .overtime-sticky-image {
+        top: 110px;
+
+        height: calc(100vh - 140px);
+    }
+
+    .overtime-sticky-image img {
+        max-width: 360px;
+        max-height: 360px;
+    }
+
+}
+
+/* =========================================
+   MOBILE IMAGE - DESKTOP HIDE
+========================================= */
+
+.overtime-mobile-image {
+    display: none;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .overtime-choose-section {
+        padding: 45px 0 30px;
+    }
+
+    .overtime-choose-container {
+        width: 100%;
+        max-width: 100%;
+
+        padding: 0 18px;
+    }
+
+
+    /* HEADING */
+
+    .overtime-choose-heading {
+        margin-bottom: 45px;
+
+        text-align: center;
+    }
+
+    .overtime-choose-heading h2 {
+        font-size: 25px;
+        line-height: 1.4;
+    }
+
+
+    /* LAYOUT */
+
+    .overtime-scroll-layout {
+        display: block;
+    }
+
+    .overtime-scroll-content {
+        width: 100%;
+    }
+
+
+    /* ITEM */
+
+    .overtime-scroll-item {
+        width: 100%;
+        min-height: auto;
+
+        margin-bottom: 65px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        opacity: 1;
+
+        transform: none;
+    }
+
+
+    /* CONTENT */
+
+    .overtime-scroll-text {
+        width: 100%;
+        max-width: 500px;
+
+        text-align: left;
+    }
+
+    .overtime-scroll-text h3 {
+        margin: 0 0 12px;
+
+        font-size: 22px;
+        line-height: 1.35;
+    }
+
+    .overtime-scroll-text p {
+        margin: 0;
+
+        color: #344054;
+
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+
+    /* MOBILE IMAGE */
+
+    .overtime-mobile-image {
+        width: 100%;
+
+        margin-top: 25px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .overtime-mobile-image img {
+        display: block;
+
+        width: 100%;
+        max-width: 320px;
+        height: 260px;
+
+        object-fit: contain;
+    }
+
+
+    /* DESKTOP STICKY IMAGE HIDE */
+
+    .overtime-sticky-column {
+        display: none;
+    }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+
+    .overtime-choose-section {
+        padding-top: 35px;
+    }
+
+    .overtime-choose-container {
+        padding: 0 15px;
+    }
+
+    .overtime-choose-heading {
+        margin-bottom: 35px;
+    }
+
+    .overtime-choose-heading h2 {
+        font-size: 22px;
+    }
+
+    .overtime-scroll-item {
+        margin-bottom: 55px;
+    }
+
+    .overtime-scroll-text h3 {
+        font-size: 20px;
+    }
+
+    .overtime-scroll-text p {
+        font-size: 13px;
+        line-height: 1.65;
+    }
+
+    .overtime-mobile-image {
+        margin-top: 20px;
+    }
+
+    .overtime-mobile-image img {
+        max-width: 280px;
+        height: 220px;
+    }
+
+}
+
+
+
+
+.overtime-list {
+    margin: 0 0 28px;
+    padding: 0;
+
+    list-style: none;
+}
+
+.overtime-list li {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    margin-bottom: 14px;
+
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.overtime-list li svg {
+    flex-shrink: 0;
+
+    color: #009bea;
+
+    font-size: 14px;
+}

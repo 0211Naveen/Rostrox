@@ -1,0 +1,312 @@
+
+
+
+/* ==========================================
+   ATTENDANCE TOOLS SECTION
+========================================== */
+
+.attendance-tools-section {
+  padding: 5px 20px;
+  background: #ffffff;
+}
+
+.attendance-tools-container {
+  width: 100%;
+  max-width: 1150px;
+
+  margin: 0 auto;
+  padding: 45px 55px;
+
+  background: #cbdcf0;
+
+  border-radius: 22px;
+}
+
+/* ==========================================
+   TOP
+========================================== */
+
+.attendance-tools-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  gap: 40px;
+
+  margin-bottom: 55px;
+}
+
+.attendance-tools-top h2 {
+  max-width: 650px;
+
+  margin: 0;
+
+  color: #000000;
+
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.attendance-demo-btn {
+  flex-shrink: 0;
+
+  padding: 17px 40px;
+
+  color: #ffffff;
+  background: #173dde;
+
+  border: none;
+  border-radius: 15px;
+
+  font-size: 17px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.attendance-demo-btn:hover {
+  transform: translateY(-3px);
+
+  box-shadow: 0 10px 25px rgba(23, 61, 222, 0.2);
+}
+
+/* ==========================================
+   MAIN
+========================================== */
+
+.attendance-tools-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 50px;
+}
+
+/* ==========================================
+   LIST
+========================================== */
+
+.attendance-tools-list {
+  width: 68%;
+
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  column-gap: 45px;
+  row-gap: 20px;
+}
+
+.attendance-tool-item {
+  display: flex;
+  align-items: center;
+
+  gap: 14px;
+
+  color: #172033;
+
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.attendance-tool-icon {
+  width: 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  color: #6f88aa;
+
+  font-size: 20px;
+}
+
+/* ==========================================
+   IMAGE
+========================================== */
+
+.attendance-tools-image {
+  width: 32%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.attendance-tools-image img {
+  display: block;
+
+  width: 100%;
+  max-width: 280px;
+  max-height: 300px;
+
+  object-fit: contain;
+}
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width: 991px) {
+
+  .attendance-tools-section {
+    padding: 45px 20px;
+  }
+
+  .attendance-tools-container {
+    max-width: 750px;
+
+    padding: 40px;
+  }
+
+  .attendance-tools-top {
+    margin-bottom: 45px;
+  }
+
+  .attendance-tools-top h2 {
+    font-size: 29px;
+  }
+
+  .attendance-demo-btn {
+    padding: 14px 28px;
+
+    font-size: 15px;
+  }
+
+  .attendance-tools-main {
+    flex-direction: column;
+
+    gap: 40px;
+  }
+
+  .attendance-tools-list {
+    width: 100%;
+
+    column-gap: 30px;
+  }
+
+  .attendance-tools-image {
+    width: 100%;
+  }
+
+  .attendance-tools-image img {
+    max-width: 260px;
+  }
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 767px) {
+
+  .attendance-tools-section {
+    padding: 35px 15px;
+  }
+
+  .attendance-tools-container {
+    max-width: 520px;
+
+    padding: 35px 25px;
+
+    border-radius: 18px;
+  }
+
+  .attendance-tools-top {
+    flex-direction: column;
+    align-items: center;
+
+    gap: 25px;
+
+    margin-bottom: 40px;
+
+    text-align: center;
+  }
+
+  .attendance-tools-top h2 {
+    max-width: 430px;
+
+    font-size: 25px;
+    line-height: 1.4;
+  }
+
+  .attendance-tools-top h2 br {
+    display: none;
+  }
+
+  .attendance-demo-btn {
+    padding: 13px 28px;
+
+    border-radius: 12px;
+
+    font-size: 14px;
+  }
+
+  .attendance-tools-main {
+    gap: 35px;
+  }
+
+  .attendance-tools-list {
+    grid-template-columns: 1fr;
+
+    row-gap: 17px;
+  }
+
+  .attendance-tool-item {
+    font-size: 14px;
+  }
+
+  .attendance-tool-icon {
+    width: 23px;
+
+    font-size: 18px;
+  }
+
+  .attendance-tools-image img {
+    max-width: 230px;
+    max-height: 250px;
+  }
+}
+
+/* ==========================================
+   SMALL MOBILE
+========================================== */
+
+@media (max-width: 480px) {
+
+  .attendance-tools-section {
+    padding: 30px 12px;
+  }
+
+  .attendance-tools-container {
+    padding: 30px 20px;
+  }
+
+  .attendance-tools-top h2 {
+    font-size: 22px;
+  }
+
+  .attendance-tools-list {
+    row-gap: 15px;
+  }
+
+  .attendance-tool-item {
+    gap: 11px;
+
+    font-size: 13px;
+  }
+
+  .attendance-tool-icon {
+    font-size: 17px;
+  }
+
+  .attendance-tools-image img {
+    max-width: 200px;
+  }
+}

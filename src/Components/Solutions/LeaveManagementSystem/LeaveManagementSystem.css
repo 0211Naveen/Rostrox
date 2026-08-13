@@ -1,0 +1,668 @@
+/* =========================================
+   LEAVE HERO SECTION
+========================================= */
+
+.leave-hero {
+    width: 100%;
+
+    padding: 55px 0;
+
+    background: #ffffff;
+}
+
+.leave-hero-container {
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 55px auto;
+    padding: 0 35px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+
+    gap: 60px;
+}
+
+
+/* =========================================
+   LEFT CONTENT
+========================================= */
+
+.leave-hero-content {
+    width: 100%;
+    max-width: 560px;
+}
+
+.leave-hero-content h1 {
+    position: relative;
+
+    margin: 0 0 22px;
+
+    color: #000000;
+
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.leave-blue-shape {
+    display: inline-block;
+
+    width: 16px;
+    height: 20px;
+
+    margin-left: 8px;
+
+    background: #078ed5;
+
+    border-radius: 3px;
+
+    transform: rotate(-8deg);
+}
+
+.leave-hero-content p {
+    max-width: 540px;
+
+    margin: 0 0 28px;
+
+    color: #667085;
+
+    font-size: 16px;
+    line-height: 1.65;
+}
+
+
+/* =========================================
+   BUTTON
+========================================= */
+
+.leave-hero-btn {
+    padding: 14px 25px;
+
+    color: #ffffff;
+    background: #173de8;
+
+    border: none;
+    border-radius: 7px;
+
+    font-size: 15px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.leave-hero-btn:hover {
+    background: #0d2fc7;
+
+    transform: translateY(-3px);
+}
+
+
+/* =========================================
+   RIGHT IMAGE
+========================================= */
+
+.leave-hero-image {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leave-hero-image img {
+    display: block;
+
+    width: 100%;
+    max-width: 480px;
+    height: 390px;
+
+    object-fit: contain;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    .leave-hero {
+        padding: 50px 0;
+    }
+
+    .leave-hero-container {
+        max-width: 800px;
+
+        padding: 0 25px;
+
+        gap: 35px;
+    }
+
+    .leave-hero-content h1 {
+        font-size: 31px;
+    }
+
+    .leave-hero-content p {
+        font-size: 15px;
+    }
+
+    .leave-hero-image img {
+        max-width: 380px;
+        height: 330px;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .leave-hero {
+        padding: 40px 0 30px;
+    }
+
+    .leave-hero-container {
+        width: 100%;
+        max-width: 100%;
+
+        padding: 0 18px;
+
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+    }
+
+
+    /* CONTENT */
+
+    .leave-hero-content {
+        max-width: 100%;
+
+        text-align: center;
+    }
+
+    .leave-hero-content h1 {
+        margin-bottom: 18px;
+
+        font-size: 27px;
+        line-height: 1.35;
+    }
+
+    .leave-hero-content h1 br {
+        display: none;
+    }
+
+    .leave-blue-shape {
+        width: 12px;
+        height: 17px;
+
+        margin-left: 5px;
+    }
+
+    .leave-hero-content p {
+        max-width: 500px;
+
+        margin: 0 auto 24px;
+
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+
+    /* BUTTON */
+
+    .leave-hero-btn {
+        padding: 13px 23px;
+
+        font-size: 14px;
+    }
+
+
+    /* IMAGE */
+
+    .leave-hero-image img {
+        max-width: 340px;
+        height: 280px;
+    }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+
+    .leave-hero {
+        padding: 10px 0 25px;
+    }
+
+    .leave-hero-container {
+        padding: 0 15px;
+
+        gap: 25px;
+    }
+
+    .leave-hero-content h1 {
+        font-size: 23px;
+        line-height: 1.4;
+    }
+
+    .leave-hero-content p {
+        font-size: 13px;
+        line-height: 1.65;
+    }
+
+    .leave-hero-btn {
+        padding: 12px 21px;
+
+        font-size: 13px;
+    }
+
+    .leave-hero-image img {
+        width: 100%;
+        max-width: 290px;
+        height: 240px;
+    }
+
+}
+
+
+
+
+
+
+
+/* =========================================
+   WHY CHOOSE LEAVE MANAGEMENT
+========================================= */
+
+.leave-choose-section {
+    position: relative;
+
+    padding: 0px 0 0;
+
+    background: #ffffff;
+}
+
+.leave-choose-container {
+    max-width: 1200px;
+}
+
+
+/* =========================================
+   HEADING
+========================================= */
+
+.leave-choose-heading {
+    margin-bottom: 30px;
+
+    text-align: center;
+}
+
+.leave-choose-heading h2 {
+    margin: 0;
+
+    color: #000000;
+
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+
+/* =========================================
+   SCROLL LAYOUT
+========================================= */
+
+.leave-scroll-layout {
+    position: relative;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 70px;
+}
+
+
+/* =========================================
+   LEFT CONTENT
+========================================= */
+
+.leave-scroll-content {
+    min-width: 0;
+}
+
+.leave-scroll-item {
+    min-height: 90vh;
+
+    display: flex;
+    align-items: center;
+
+    opacity: 0.3;
+
+    transform: translateY(30px);
+
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+}
+
+.leave-scroll-item.active {
+    opacity: 1;
+
+    transform: translateY(0);
+}
+
+.leave-scroll-text {
+    max-width: 500px;
+}
+
+.leave-scroll-text h3 {
+    margin: 0 0 15px;
+
+    color: #000000;
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.leave-scroll-text p {
+    margin: 0;
+
+    color: #344054;
+
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   RIGHT STICKY COLUMN
+========================================= */
+
+.leave-sticky-column {
+    position: relative;
+}
+
+.leave-sticky-image {
+    position: sticky;
+
+    top: 130px;
+
+    width: 100%;
+    height: calc(100vh - 170px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* =========================================
+   IMAGE CHANGE
+========================================= */
+
+.leave-sticky-image img {
+    position: absolute;
+
+    width: 100%;
+    max-width: 470px;
+    max-height: 470px;
+
+    object-fit: contain;
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    transform: translateY(35px) scale(0.96);
+
+    transition:
+        opacity 0.5s ease,
+        visibility 0.5s ease,
+        transform 0.5s ease;
+}
+
+.leave-sticky-image img.active {
+    opacity: 1;
+
+    visibility: visible;
+
+    transform: translateY(0) scale(1);
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    .leave-choose-section {
+        padding-top: 55px;
+    }
+
+    .leave-choose-container {
+        max-width: 750px;
+
+        padding: 0 25px;
+    }
+
+    .leave-choose-heading h2 {
+        font-size: 31px;
+    }
+
+    .leave-scroll-layout {
+        gap: 35px;
+    }
+
+    .leave-scroll-item {
+        min-height: 75vh;
+    }
+
+    .leave-scroll-text h3 {
+        font-size: 24px;
+    }
+
+    .leave-scroll-text p {
+        font-size: 15px;
+    }
+
+    .leave-sticky-image {
+        top: 110px;
+
+        height: calc(100vh - 140px);
+    }
+
+    .leave-sticky-image img {
+        max-width: 360px;
+        max-height: 360px;
+    }
+
+}
+
+/* =========================================
+   MOBILE IMAGE - DESKTOP HIDE
+========================================= */
+
+.leave-mobile-image {
+    display: none;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .leave-choose-section {
+        padding: 45px 0 30px;
+    }
+
+    .leave-choose-container {
+        width: 100%;
+        max-width: 100%;
+
+        padding: 0 18px;
+    }
+
+
+    /* HEADING */
+
+    .leave-choose-heading {
+        margin-bottom: 45px;
+
+        text-align: center;
+    }
+
+    .leave-choose-heading h2 {
+        font-size: 25px;
+        line-height: 1.4;
+    }
+
+
+    /* LAYOUT */
+
+    .leave-scroll-layout {
+        display: block;
+    }
+
+    .leave-scroll-content {
+        width: 100%;
+    }
+
+
+    /* ITEM */
+
+    .leave-scroll-item {
+        width: 100%;
+        min-height: auto;
+
+        margin-bottom: 65px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        opacity: 1;
+
+        transform: none;
+    }
+
+
+    /* CONTENT */
+
+    .leave-scroll-text {
+        width: 100%;
+        max-width: 500px;
+
+        text-align: left;
+    }
+
+    .leave-scroll-text h3 {
+        margin: 0 0 12px;
+
+        font-size: 22px;
+        line-height: 1.35;
+    }
+
+    .leave-scroll-text p {
+        margin: 0;
+
+        color: #344054;
+
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+
+    /* MOBILE IMAGE */
+
+    .leave-mobile-image {
+        width: 100%;
+
+        margin-top: 25px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .leave-mobile-image img {
+        display: block;
+
+        width: 100%;
+        max-width: 320px;
+        height: 260px;
+
+        object-fit: contain;
+    }
+
+
+    /* DESKTOP STICKY IMAGE HIDE */
+
+    .leave-sticky-column {
+        display: none;
+    }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+
+    .leave-choose-section {
+        padding-top: 35px;
+    }
+
+    .leave-choose-container {
+        padding: 0 15px;
+    }
+
+    .leave-choose-heading {
+        margin-bottom: 35px;
+    }
+
+    .leave-choose-heading h2 {
+        font-size: 22px;
+    }
+
+    .leave-scroll-item {
+        margin-bottom: 55px;
+    }
+
+    .leave-scroll-text h3 {
+        font-size: 20px;
+    }
+
+    .leave-scroll-text p {
+        font-size: 13px;
+        line-height: 1.65;
+    }
+
+    .leave-mobile-image {
+        margin-top: 20px;
+    }
+
+    .leave-mobile-image img {
+        max-width: 280px;
+        height: 220px;
+    }
+
+}

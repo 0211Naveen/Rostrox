@@ -1,0 +1,1528 @@
+/* =====================================
+   FACE RECOGNITION HERO
+===================================== */
+
+.facerecognition-hero {
+  width: 100%;
+  background: #1c3558;
+  color: #ffffff;
+
+  padding: 100px 0 45px;
+}
+
+.facerecognition-container {
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+/* ROW */
+
+.facerecognition-box {
+  min-height: 430px;
+
+  /* Bootstrap row handle pannum */
+  display: flex;
+  align-items: center;
+
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+/* LEFT CONTENT */
+
+.facerecognition-left {
+  padding: 20px 30px;
+}
+
+.facerecognition-tag {
+  display: inline-block;
+
+  margin-bottom: 16px;
+  padding: 7px 16px;
+
+  color: #009bea;
+
+  border: 1px solid #315887;
+  border-radius: 30px;
+
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.facerecognition-title {
+  width: 100%;
+  max-width: 500px;
+
+  margin: 0 0 25px;
+
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+/* LIST */
+
+.facerecognition-list {
+  margin: 0 0 28px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.facerecognition-list li {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+
+  margin-bottom: 14px;
+
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.facerecognition-list li svg {
+  flex-shrink: 0;
+
+  color: #009bea;
+
+  font-size: 14px;
+}
+
+/* BUTTON */
+
+.facerecognition-demo-btn {
+  padding: 13px 30px;
+
+  color: #073eff;
+  background: #ffffff;
+
+  border: none;
+  border-radius: 12px;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.facerecognition-demo-btn:hover {
+  transform: translateY(-3px);
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* RIGHT IMAGE */
+
+.facerecognition-hero-image {
+  width: 100%;
+  min-height: 350px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+}
+
+.facerecognition-hero-image img {
+  display: block;
+
+  width: 100%;
+  max-width: 380px;
+  height: 270px;
+
+  object-fit: cover;
+
+  border-radius: 0;
+  height: 300px;
+}
+
+
+/* =====================================
+   TABLET
+===================================== */
+
+@media (max-width: 991px) {
+
+  .facerecognition-hero {
+    padding: 70px 0 45px;
+  }
+
+  .facerecognition-container {
+    max-width: 750px;
+
+    padding: 0 25px;
+  }
+
+  .facerecognition-box {
+    min-height: auto;
+  }
+
+  .facerecognition-left {
+    padding: 25px 20px;
+
+    text-align: center;
+  }
+
+  .facerecognition-tag {
+    font-size: 11px;
+  }
+
+  .facerecognition-title {
+    max-width: 520px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 27px;
+  }
+
+  .facerecognition-list {
+    width: 100%;
+    max-width: 420px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: left;
+  }
+
+  .facerecognition-hero-image {
+    min-height: auto;
+
+    margin-top: 20px;
+  }
+
+  .facerecognition-hero-image img {
+    max-width: 370px;
+    height: 290px;
+  }
+}
+
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media (max-width: 767px) {
+
+  .facerecognition-container {
+    padding: 0 18px;
+
+  }
+
+  .facerecognition-left {
+    padding: 20px 5px;
+  }
+
+  .facerecognition-tag {
+    padding: 6px 13px;
+
+    font-size: 10px;
+  }
+
+  .facerecognition-title {
+    max-width: 350px;
+
+    margin-bottom: 22px;
+
+    font-size: 23px;
+    line-height: 1.4;
+  }
+
+  .facerecognition-list {
+    max-width: 330px;
+
+    margin-bottom: 25px;
+  }
+
+  .facerecognition-list li {
+    gap: 10px;
+
+    margin-bottom: 12px;
+
+    font-size: 13px;
+  }
+
+  .facerecognition-list li svg {
+    font-size: 13px;
+  }
+
+  .facerecognition-demo-btn {
+    padding: 12px 27px;
+
+    font-size: 13px;
+  }
+
+  .facerecognition-hero-image {
+    padding: 15px 0;
+
+    margin-top: 15px;
+  }
+
+  .facerecognition-hero-image img {
+    width: 100%;
+    max-width: 330px;
+    height: 220px;
+
+    object-fit: cover;
+  }
+}
+
+
+/* =====================================
+   SMALL MOBILE
+===================================== */
+
+@media (max-width: 480px) {
+
+  .facerecognition-hero {
+    padding-top: 60px;
+  }
+
+  .facerecognition-title {
+    max-width: 310px;
+
+    font-size: 21px;
+  }
+
+  .facerecognition-list {
+    max-width: 300px;
+  }
+
+  .facerecognition-list li {
+    font-size: 12px;
+  }
+
+  .facerecognition-hero-image img {
+    max-width: 300px;
+    height: 230px;
+
+  }
+}
+
+
+
+
+
+/* ---------- VIDEO ---------- */
+.facerecognition-video-section {
+  position: relative;
+  height: 300px;
+  padding-top: 30px;
+  color: #ffffff;
+  background: #1c3558;
+
+
+
+}
+
+.facerecognition-video-section .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.facerecognition-video-title {
+  margin: 0 0 25px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.facerecognition-video-box {
+  position: relative;
+  width: 100%;
+  max-width: 550px;
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #000000;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  z-index: 2;
+}
+
+.facerecognition-video-box iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+}
+
+/* ---------- STATS ---------- */
+.facerecognition-stats-section {
+  padding: 160px 0 70px;
+  background: #ffffff;
+}
+
+.facerecognition-stats {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.facerecognition-stat-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.facerecognition-stat-icon {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #0a94dd;
+  background: #eef8ff;
+  border-radius: 18px;
+  font-size: 28px;
+}
+
+.facerecognition-stat-item h3 {
+  margin: 0 0 4px;
+  color: #172b4d;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.facerecognition-stat-item p {
+  margin: 0;
+  color: #666666;
+  font-size: 17px;
+}
+
+/* ---------- CASE STUDY ---------- */
+.facerecognition-case-section {
+  padding: 50px 0 65px;
+  background: #ffffff;
+}
+
+.facerecognition-case-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.facerecognition-case-heading {
+  margin-bottom: 40px;
+}
+
+.facerecognition-case-heading h2 {
+  max-width: 850px;
+  margin: 0 0 12px;
+  color: #000000;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.facerecognition-case-heading p {
+  margin: 0;
+  color: #111111;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.facerecognition-case-row {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  /* gap: 10px; */
+}
+
+.facerecognition-case-content {
+  max-width: 650px;
+}
+
+.facerecognition-numbers {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 30px;
+}
+
+.facerecognition-numbers h3 {
+  margin: 0 0 5px;
+  color: #1e3a2f;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.facerecognition-numbers p {
+  margin: 0;
+  color: #333333;
+  font-size: 14px;
+}
+
+.facerecognition-description {
+  max-width: 650px;
+  margin: 0 0 8px;
+  color: #26354d;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.facerecognition-case-link {
+  display: inline-block;
+  margin-bottom: 22px;
+  color: #f5b342;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.facerecognition-case-link:hover {
+  text-decoration: underline;
+  color: #e6a63a;
+}
+
+.facerecognition-quote {
+  position: relative;
+  max-width: 650px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.facerecognition-quote .quote-icon {
+  flex-shrink: 0;
+  color: #b9c8ff;
+  font-size: 28px;
+}
+
+.facerecognition-quote p {
+  margin: 0;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.facerecognition-user {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.facerecognition-user img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.facerecognition-user div {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.facerecognition-user h4 {
+  margin: 0;
+  color: #222222;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.facerecognition-user p {
+  margin: 0;
+  color: #4d5666;
+  font-size: 13px;
+}
+
+.facerecognition-case-image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.facerecognition-case-image img {
+  width: 100%;
+  max-width: 380px;
+  display: block;
+  object-fit: contain;
+}
+
+/* ---------- FEATURES ---------- */
+.facerecognition-features-section {
+  background: #dbe7f5;
+  padding: 0px 0;
+}
+
+.facerecognition-features-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 35px;
+}
+
+.facerecognition-feature-row {
+  width: 100%;
+  min-height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.facerecognition-feature-row:last-child {
+  margin-bottom: 0;
+}
+
+.facerecognition-feature-reverse {
+  flex-direction: row-reverse;
+}
+
+.facerecognition-feature-content {
+  width: 50%;
+  max-width: 500px;
+}
+
+.facerecognition-feature-tag {
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 7px 15px;
+  color: #1e3a2f;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.facerecognition-feature-content h2 {
+  max-width: 500px;
+  margin: 0 0 18px;
+  color: #000000;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.facerecognition-feature-description {
+  max-width: 500px;
+  margin: 0 0 28px;
+  color: #34445b;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.facerecognition-faq-wrapper {
+  width: 100%;
+}
+
+.facerecognition-faq-wrapper h4 {
+  margin: 0 0 5px;
+  color: #25334a;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.facerecognition-faq-item {
+  width: 100%;
+  border-bottom: 1px solid rgba(30, 58, 47, 0.1);
+}
+
+.facerecognition-faq-question {
+  width: 100%;
+  padding: 14px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  color: #000000;
+  background: transparent;
+  border: none;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.facerecognition-faq-question svg {
+  flex-shrink: 0;
+  color: #6e7b8d;
+  font-size: 11px;
+}
+
+.facerecognition-faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.35s ease, opacity 0.3s ease, padding 0.35s ease;
+}
+
+.facerecognition-faq-answer.show {
+  max-height: 150px;
+  opacity: 1;
+  padding-bottom: 14px;
+}
+
+.facerecognition-faq-answer p {
+  max-width: 440px;
+  margin: 0;
+  color: #536177;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.facerecognition-feature-image {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.facerecognition-feature-image img {
+  display: block;
+  width: 100%;
+  max-width: 430px;
+  max-height: 380px;
+  object-fit: contain;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+/* Tablet */
+@media (max-width: 991px) {
+  .facerecognition-container {
+    max-width: 750px;
+    padding: 25px;
+  }
+
+  .facerecognition-box {
+    min-height: auto;
+  }
+
+  .facerecognition-left {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .facerecognition-list {
+    width: 100%;
+    max-width: 420px;
+    text-align: left;
+  }
+
+  .facerecognition-hero-image {
+    margin-top: 40px;
+  }
+
+  .facerecognition-hero-image img {
+    max-width: 350px;
+  }
+
+  .facerecognition-video-section {
+    height: 270px;
+    padding-top: 28px;
+  }
+
+  .facerecognition-video-title {
+    font-size: 24px;
+  }
+
+  .facerecognition-video-box {
+    max-width: 500px;
+    border-radius: 22px;
+  }
+
+  .facerecognition-stats-section {
+    padding: 130px 25px 60px;
+  }
+
+  .facerecognition-stats {
+    max-width: 700px;
+    gap: 20px;
+  }
+
+  .facerecognition-stat-item {
+    gap: 14px;
+  }
+
+  .facerecognition-stat-icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 15px;
+    font-size: 23px;
+  }
+
+  .facerecognition-stat-item h3 {
+    font-size: 26px;
+  }
+
+  .facerecognition-stat-item p {
+    font-size: 15px;
+  }
+
+  .facerecognition-case-section .container {
+    max-width: 760px;
+    padding: 0 25px;
+  }
+
+  .facerecognition-case-heading h2 {
+    font-size: 29px;
+  }
+
+  .facerecognition-case-row {
+    min-height: auto;
+  }
+
+  .facerecognition-case-content {
+    max-width: 100%;
+  }
+
+  .facerecognition-case-image {
+    margin-top: 40px;
+  }
+
+  .facerecognition-case-image img {
+    max-width: 350px;
+  }
+
+  .facerecognition-features-section {
+    padding: 65px 0;
+  }
+
+  .facerecognition-features-container {
+    max-width: 760px;
+    padding: 0 30px;
+  }
+
+  .facerecognition-feature-row,
+  .facerecognition-feature-reverse {
+    min-height: auto;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 90px;
+  }
+
+  .facerecognition-feature-content,
+  .facerecognition-feature-image {
+    width: 100%;
+  }
+
+  .facerecognition-feature-content {
+    max-width: 620px;
+  }
+
+  .facerecognition-feature-image {
+    order: 2;
+  }
+
+  .facerecognition-feature-content {
+    order: 1;
+  }
+
+  .facerecognition-feature-content h2 {
+    font-size: 30px;
+  }
+
+  .facerecognition-feature-image img {
+    max-width: 400px;
+    max-height: 350px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .facerecognition-hero {
+    padding-top: 70px;
+    padding-bottom: 35px;
+  }
+
+  .facerecognition-container {
+    padding: 20px;
+  }
+
+  .facerecognition-left {
+    padding: 10px;
+  }
+
+  .facerecognition-tag {
+    padding: 7px 14px;
+    font-size: 11px;
+  }
+
+  .facerecognition-title {
+    font-size: 25px;
+  }
+
+  .facerecognition-list {
+    max-width: 350px;
+  }
+
+  .facerecognition-list li {
+    font-size: 14px;
+  }
+
+  .facerecognition-demo-btn {
+    padding: 12px 27px;
+    font-size: 14px;
+  }
+
+  .facerecognition-hero-image {
+    margin-top: 30px;
+  }
+
+  .facerecognition-hero-image img {
+    max-width: 300px;
+  }
+
+  .facerecognition-video-section {
+    height: 220px;
+    padding-top: 25px;
+  }
+
+  .facerecognition-video-section .container {
+    padding: 0 18px;
+  }
+
+  .facerecognition-video-title {
+    max-width: 320px;
+    margin: 0 auto 22px;
+    font-size: 21px;
+  }
+
+  .facerecognition-video-box {
+    max-width: 420px;
+    border-radius: 18px;
+  }
+
+  .facerecognition-stats-section {
+    padding: 55px 20px 45px;
+  }
+
+  .facerecognition-stats {
+    max-width: 220px;
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .facerecognition-stat-item {
+    justify-content: flex-start;
+    gap: 15px;
+  }
+
+  .facerecognition-stat-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 13px;
+    font-size: 19px;
+  }
+
+  .facerecognition-stat-item h3 {
+    font-size: 22px;
+  }
+
+  .facerecognition-stat-item p {
+    font-size: 13px;
+  }
+
+  .facerecognition-case-section {
+    padding: 40px 0 50px;
+  }
+
+  .facerecognition-case-section .container {
+    max-width: 520px;
+    padding: 0 20px;
+  }
+
+  .facerecognition-case-heading h2 {
+    font-size: 25px;
+  }
+
+  .facerecognition-case-heading p {
+    font-size: 14px;
+  }
+
+  .facerecognition-numbers {
+    gap: 45px;
+  }
+
+  .facerecognition-numbers h3 {
+    font-size: 25px;
+  }
+
+  .facerecognition-description {
+    font-size: 14px;
+  }
+
+  .facerecognition-case-link {
+    font-size: 13px;
+  }
+
+  .facerecognition-quote .quote-icon {
+    font-size: 24px;
+  }
+
+  .facerecognition-quote p {
+    font-size: 14px;
+  }
+
+  .facerecognition-user div {
+    display: block;
+  }
+
+  .facerecognition-case-image img {
+    max-width: 300px;
+  }
+
+  .facerecognition-features-section {
+    padding: 50px 0;
+  }
+
+  .facerecognition-features-container {
+    max-width: 520px;
+    padding: 0 20px;
+  }
+
+  .facerecognition-feature-row,
+  .facerecognition-feature-reverse {
+    gap: 30px;
+    margin-bottom: 75px;
+  }
+
+  .facerecognition-feature-tag {
+    font-size: 10px;
+  }
+
+  .facerecognition-feature-content h2 {
+    font-size: 26px;
+  }
+
+  .facerecognition-feature-description {
+    font-size: 14px;
+  }
+
+  .facerecognition-faq-question {
+    font-size: 13px;
+  }
+
+  .facerecognition-faq-answer p {
+    font-size: 12px;
+  }
+
+  .facerecognition-feature-image img {
+    max-width: 330px;
+    max-height: 290px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .facerecognition-video-section {
+    height: 190px;
+    padding-top: 22px;
+  }
+
+  .facerecognition-video-title {
+    max-width: 280px;
+    font-size: 18px;
+  }
+
+  .facerecognition-video-box {
+    border-radius: 16px;
+  }
+
+  .facerecognition-stats-section {
+    padding: 120px 15px 40px;
+  }
+
+  .facerecognition-stats {
+    max-width: 250px;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .facerecognition-features-container {
+    padding: 0 17px;
+  }
+
+  .facerecognition-feature-row,
+  .facerecognition-feature-reverse {
+    margin-bottom: 65px;
+  }
+
+  .facerecognition-feature-content h2 {
+    font-size: 23px;
+  }
+
+  .facerecognition-feature-description {
+    font-size: 13px;
+  }
+
+  .facerecognition-faq-question {
+    font-size: 12px;
+  }
+
+  .facerecognition-feature-image img {
+    max-width: 290px;
+    max-height: 260px;
+  }
+}
+
+
+
+
+
+
+
+/* =========================================
+   PROBLEM & SOLUTION
+========================================= */
+
+.attendance-problem-section {
+    padding: 30px 0;
+
+    background: #dce7f5;
+}
+
+.attendance-problem-container {
+    max-width: 1080px;
+}
+
+.attendance-problem-heading {
+    margin-bottom: 15px;
+}
+
+.attendance-problem-heading span {
+    display: inline-block;
+
+    margin-bottom: 15px;
+
+    color: #0789ed;
+
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.attendance-problem-heading h2 {
+    margin: 0;
+
+    color: #000000;
+
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+/* =========================================
+   GRID
+========================================= */
+
+.attendance-problem-grid {
+    display: grid;
+
+    grid-template-columns: 380px 1fr;
+
+    gap: 60px;
+
+    align-items: start;
+}
+
+
+/* =========================================
+   LEFT TABS
+========================================= */
+
+.attendance-problem-tabs {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+.attendance-problem-tab {
+    width: 100%;
+
+    /* min-height: 72px; */
+
+    padding: 18px 28px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 18px;
+
+    color: #4b5565;
+    background: #ffffff;
+
+    border: none;
+    border-radius: 12px;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    text-align: left;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+
+    transition: 0.3s ease;
+}
+
+.attendance-problem-tab:hover {
+    transform: translateY(-2px);
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.attendance-problem-tab.active {
+    color: #ffffff;
+
+    background: #173de8;
+
+    box-shadow: 0 8px 20px rgba(23, 61, 232, 0.25);
+}
+
+.attendance-problem-tab-icon {
+    min-width: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 20px;
+}
+
+
+/* =========================================
+   CONTENT
+========================================= */
+
+.attendance-problem-content {
+    min-width: 0;
+}
+
+.attendance-problem-content h3 {
+    margin: 15px 0 15px;
+
+    color: #000000;
+
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.attendance-problem-description {
+    max-width: 650px;
+
+    margin: 0 0 30px;
+
+    color: #344054;
+
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+
+
+
+
+
+/* =========================================
+   POINTS
+========================================= */
+
+.attendance-problem-points {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px 35px;
+
+    /* margin-bottom: 35px; */
+}
+
+.attendance-problem-point {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+}
+
+.attendance-problem-point span {
+    display: flex;
+
+    color: #71839c;
+
+    font-size: 18px;
+}
+
+.attendance-problem-point p {
+    margin: 0;
+
+    color: #344054;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* =========================================
+   IMAGE
+========================================= */
+
+.attendance-problem-image {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation: attendanceProblemFade 0.45s ease;
+}
+
+.attendance-problem-image img {
+    display: block;
+
+    width: 100%;
+    max-width: 520px;
+    height: 270px;
+
+    object-fit: contain;
+}
+
+@keyframes attendanceProblemFade {
+
+    from {
+        opacity: 0;
+
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+
+        transform: translateY(0);
+    }
+
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    .attendance-problem-section {
+        padding: 60px 0;
+    }
+
+    .attendance-problem-container {
+        max-width: 750px;
+
+        padding: 0 20px;
+    }
+
+    .attendance-problem-heading {
+        margin-bottom: 40px;
+    }
+
+    .attendance-problem-heading h2 {
+        font-size: 32px;
+    }
+
+    .attendance-problem-grid {
+        grid-template-columns: 300px 1fr;
+
+        gap: 35px;
+    }
+
+    .attendance-problem-tab {
+        min-height: 65px;
+
+        padding: 15px 18px;
+
+        font-size: 14px;
+    }
+
+    .attendance-problem-content h3 {
+        font-size: 24px;
+    }
+
+    .attendance-problem-points {
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+    }
+
+    .attendance-problem-image img {
+        height: 230px;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .attendance-problem-section {
+        padding: 50px 0;
+    }
+
+    .attendance-problem-container {
+        padding: 0 15px;
+    }
+
+    .attendance-problem-heading {
+        margin-bottom: 30px;
+
+        text-align: center;
+    }
+
+    .attendance-problem-heading span {
+        margin-bottom: 10px;
+
+        font-size: 13px;
+    }
+
+    .attendance-problem-heading h2 {
+        font-size: 26px;
+
+        line-height: 1.4;
+    }
+
+    .attendance-problem-grid {
+        display: block;
+    }
+
+
+    /* MOBILE TABS */
+
+    .attendance-problem-tabs {
+        width: 100%;
+
+        margin-bottom: 30px;
+
+        display: flex;
+        flex-direction: row;
+
+        gap: 10px;
+
+        overflow-x: auto;
+
+        padding-bottom: 8px;
+
+        scrollbar-width: none;
+    }
+
+    .attendance-problem-tabs::-webkit-scrollbar {
+        display: none;
+    }
+
+    .attendance-problem-tab {
+        width: auto;
+        min-width: 220px;
+        min-height: 58px;
+
+        flex-shrink: 0;
+
+        padding: 13px 16px;
+
+        border-radius: 10px;
+
+        font-size: 13px;
+    }
+
+    .attendance-problem-tab-icon {
+        min-width: 20px;
+
+        font-size: 17px;
+    }
+
+
+    /* MOBILE CONTENT */
+
+    .attendance-problem-content {
+        text-align: left;
+    }
+
+    .attendance-problem-content h3 {
+        margin-top: 0;
+
+        font-size: 23px;
+
+        line-height: 1.4;
+    }
+
+    .attendance-problem-description {
+        margin-bottom: 25px;
+
+        font-size: 14px;
+
+        line-height: 1.7;
+    }
+
+    .attendance-problem-points {
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+
+        margin-bottom: 25px;
+    }
+
+    .attendance-problem-point p {
+        font-size: 13px;
+    }
+
+    .attendance-problem-image img {
+        max-width: 100%;
+        height: auto;
+        max-height: 260px;
+    }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 400px) {
+
+    .attendance-problem-heading h2 {
+        font-size: 23px;
+    }
+
+    .attendance-problem-tab {
+        min-width: 200px;
+
+        font-size: 12px;
+    }
+
+    .attendance-problem-content h3 {
+        font-size: 21px;
+    }
+
+}

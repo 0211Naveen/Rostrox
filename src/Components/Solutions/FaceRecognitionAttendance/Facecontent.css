@@ -1,0 +1,744 @@
+/* =========================================
+   ATTENDANCE OVERVIEW SECTION
+========================================= */
+
+.attendance-overview-section {
+    width: 100%;
+
+    padding: 30px 0 0;
+
+    background: #ffffff;
+}
+
+.attendance-overview-container {
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+
+
+/* =========================================
+   STICKY TAB AREA
+========================================= */
+
+.attendance-tab-sticky {
+    position: sticky;
+    top: 90px;
+    z-index: 950;
+    width: 100%;
+    padding: 10px 0;
+    /* background: rgba(255, 255, 255, 0.96); */
+  
+}
+
+
+/* =========================================
+   TAB WRAPPER
+========================================= */
+
+.attendance-tab-wrapper {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+
+    padding: 0 15px;
+}
+
+
+/* =========================================
+   TAB NAVBAR
+========================================= */
+
+.attendance-tab-navbar {
+    width: 100%;
+    max-width: 720px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    padding: 5px;
+
+    background: linear-gradient(90deg,
+            #172f50 0%,
+            #365f9c 100%);
+
+    border-radius: 50px;
+
+    box-shadow: 0 8px 25px rgba(23, 47, 80, 0.15);
+}
+
+
+/* =========================================
+   TAB BUTTON
+========================================= */
+
+.attendance-tab-btn {
+    width: 100%;
+
+    padding: 12px 15px;
+
+    color: #ffffff;
+    background: transparent;
+
+    border: none;
+    border-radius: 40px;
+
+    font-size: 15px;
+    font-weight: 500;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.attendance-tab-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.attendance-tab-btn.active {
+    color: #ffffff;
+
+    background: rgba(255, 255, 255, 0.15);
+
+    font-weight: 700;
+}
+
+
+/* =========================================
+   SCROLL OFFSET
+========================================= */
+
+#overview,
+#benefits,
+#features,
+#integration {
+    scroll-margin-top: 155px;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    .attendance-tab-sticky {
+        top: 65px;
+
+        padding: 8px 0;
+    }
+
+    .attendance-tab-navbar {
+        max-width: 620px;
+    }
+
+    .attendance-tab-btn {
+        padding: 11px 12px;
+
+        font-size: 14px;
+    }
+
+    #overview,
+    #benefits,
+    #features,
+    #integration {
+        scroll-margin-top: 140px;
+    }
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .attendance-tab-sticky {
+        top: 58px;
+
+        padding: 7px 0;
+
+        background: rgba(255, 255, 255, 0.98);
+    }
+
+    .attendance-tab-wrapper {
+        padding: 0 8px;
+
+        overflow: visible;
+    }
+
+    .attendance-tab-navbar {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+
+        padding: 4px;
+
+        border-radius: 30px;
+    }
+
+    .attendance-tab-btn {
+        min-width: 0;
+
+        padding: 10px 3px;
+
+        font-size: 11px;
+
+        white-space: nowrap;
+    }
+
+    #overview,
+    #benefits,
+    #features,
+    #integration {
+        scroll-margin-top: 125px;
+    }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 400px) {
+
+    .attendance-tab-sticky {
+        top: 90px;
+    }
+
+    .attendance-tab-wrapper {
+        padding: 0 5px;
+    }
+
+    .attendance-tab-btn {
+        padding: 9px 1px;
+
+        font-size: 10px;
+    }
+}
+
+
+
+
+/* =========================================
+   CONTENT
+========================================= */
+
+.attendance-overview-content {
+    text-align: center;
+}
+
+.attendance-small-title {
+    display: inline-block;
+
+    margin-bottom: 25px;
+
+    color: #0789ed;
+
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.attendance-overview-content h2 {
+    margin: 0 auto 25px;
+
+    color: #000000;
+
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.attendance-overview-content p {
+    max-width: 900px;
+
+    margin: 0 auto 45px;
+
+    color: #344054;
+
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+/* =========================================
+   IMAGE
+========================================= */
+
+.attendance-overview-image {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.attendance-overview-image img {
+    display: block;
+
+    width: 100%;
+    max-width: 760px;
+    height: 450px;
+
+    object-fit: contain;
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+    .attendance-overview-section {
+        padding-top: 25px;
+    }
+
+    .attendance-overview-container {
+        max-width: 750px;
+
+        padding: 0 20px;
+    }
+
+    .attendance-tab-navbar {
+        max-width: 620px;
+    }
+
+    .attendance-tab-btn {
+        padding: 12px 15px;
+
+        font-size: 14px;
+    }
+
+    .attendance-overview-content h2 {
+        font-size: 32px;
+    }
+
+    .attendance-overview-content p {
+        max-width: 650px;
+
+        font-size: 16px;
+    }
+
+    .attendance-overview-image img {
+        max-width: 600px;
+        height: 380px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .attendance-tab-wrapper {
+        position: sticky;
+        top: 60px;
+        /* MOBILE MAIN NAVBAR HEIGHT */
+        z-index: 900;
+
+        margin-bottom: 22px;
+
+        padding: 7px 10px;
+
+        overflow-x: auto;
+
+        justify-content: flex-start;
+
+        background: #ffffff;
+
+        scrollbar-width: none;
+    }
+
+    .attendance-tab-wrapper::-webkit-scrollbar {
+        display: none;
+    }
+
+    .attendance-tab-navbar {
+        min-width: 500px;
+
+        grid-template-columns: repeat(4, 1fr);
+
+        border-radius: 35px;
+    }
+
+    .attendance-tab-btn {
+        padding: 11px 15px;
+
+        font-size: 13px;
+    }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+    .attendance-overview-container {
+        padding: 0 12px;
+    }
+
+    .attendance-tab-navbar {
+        min-width: 350px;
+    }
+
+    .attendance-tab-btn {
+        padding: 10px 12px;
+
+        font-size: 12px;
+    }
+
+    .attendance-overview-content h2 {
+        max-width: 320px;
+
+        font-size: 22px;
+    }
+
+    .attendance-overview-content p {
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+/* =========================================
+   BENEFITS SECTION
+========================================= */
+
+.facerecognition-benefits-section {
+    width: 100%;
+
+    padding: 30px 0 80px;
+
+    background: #ffffff;
+}
+
+.facerecognition-benefits-container {
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    padding: 0 20px;
+}
+
+
+/* =========================================
+   HEADING
+========================================= */
+
+.facerecognition-benefits-heading {
+    margin-bottom: 35px;
+
+    text-align: center;
+}
+
+
+.facerecognition-benefits-heading span {
+    display: inline-block;
+
+    margin-bottom: 12px;
+
+    color: #0789ed;
+
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.facerecognition-benefits-heading h2 {
+    margin: 0;
+
+    color: #000000;
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+
+/* =========================================
+   BENEFITS GRID
+========================================= */
+
+.facerecognition-benefits-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 14px;
+}
+
+
+/* =========================================
+   CARD
+========================================= */
+
+.facerecognition-benefit-card {
+    min-height: 220px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 30px 25px;
+
+    text-align: center;
+
+    background: #eef3f8;
+
+    border-radius: 15px;
+
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+.facerecognition-benefit-card:hover {
+    transform: translateY(-7px);
+
+    box-shadow: 0 15px 35px rgba(25, 55, 95, 0.12);
+}
+
+
+/* =========================================
+   CARD SIZES
+========================================= */
+
+.facerecognition-benefit-card.benefit-large {
+    grid-column: span 2;
+}
+
+.facerecognition-benefit-card.benefit-small {
+    grid-column: span 1;
+}
+
+.facerecognition-benefit-card.benefit-wide {
+    grid-column: span 2;
+}
+
+
+/* =========================================
+   ICON
+========================================= */
+
+.facerecognition-benefit-icon {
+    width: 46px;
+    height: 46px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 18px;
+
+    color: #6f88ad;
+
+    background: #ffffff;
+
+    border-radius: 50%;
+
+    font-size: 21px;
+}
+
+
+/* =========================================
+   TITLE
+========================================= */
+
+.facerecognition-benefit-card h3 {
+    margin: 0 0 10px;
+
+    color: #000000;
+
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+/* =========================================
+   DESCRIPTION
+========================================= */
+
+.facerecognition-benefit-card p {
+    max-width: 390px;
+
+    margin: 0;
+
+    color: #44546a;
+
+    font-size: 11px;
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    .facerecognition-benefits-section {
+        padding: 60px 0;
+    }
+
+    .facerecognition-benefits-container {
+        max-width: 720px;
+    }
+
+    .facerecognition-benefits-grid {
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 15px;
+    }
+
+    .facerecognition-benefit-card.benefit-large,
+    .facerecognition-benefit-card.benefit-small,
+    .facerecognition-benefit-card.benefit-wide {
+        grid-column: span 1;
+    }
+
+    .facerecognition-benefit-card:last-child {
+        grid-column: span 2;
+    }
+
+    .facerecognition-benefit-card {
+        min-height: 210px;
+    }
+
+    .facerecognition-benefits-heading h2 {
+        font-size: 26px;
+    }
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .facerecognition-benefits-section {
+        padding: 50px 0;
+    }
+
+    .facerecognition-benefits-container {
+        padding: 0 18px;
+    }
+
+    .facerecognition-benefits-heading {
+        margin-bottom: 28px;
+    }
+
+    .facerecognition-benefits-heading span {
+        margin-bottom: 8px;
+
+        font-size: 11px;
+    }
+
+    .facerecognition-benefits-heading h2 {
+        font-size: 23px;
+        line-height: 1.4;
+    }
+
+    .facerecognition-benefits-grid {
+        width: 100%;
+        max-width: 360px;
+
+        margin: 0 auto;
+
+        grid-template-columns: 1fr;
+
+        gap: 14px;
+    }
+
+    .facerecognition-benefit-card.benefit-large,
+    .facerecognition-benefit-card.benefit-small,
+    .facerecognition-benefit-card.benefit-wide,
+    .facerecognition-benefit-card:last-child {
+        grid-column: span 1;
+    }
+
+    .facerecognition-benefit-card {
+        width: 100%;
+
+        min-height: 180px;
+
+        padding: 25px 20px;
+
+        border-radius: 14px;
+    }
+
+    .facerecognition-benefit-icon {
+        width: 43px;
+        height: 43px;
+
+        margin-bottom: 15px;
+
+        font-size: 19px;
+    }
+
+    .facerecognition-benefit-card h3 {
+        margin-bottom: 8px;
+
+        font-size: 14px;
+    }
+
+    .facerecognition-benefit-card p {
+        max-width: 290px;
+
+        font-size: 12px;
+        line-height: 1.7;
+    }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+
+    .facerecognition-benefits-section {
+        padding: 40px 0;
+    }
+
+    .facerecognition-benefits-container {
+        padding: 0 15px;
+    }
+
+    .facerecognition-benefits-heading h2 {
+        font-size: 21px;
+    }
+
+    .facerecognition-benefits-grid {
+        max-width: 320px;
+    }
+
+    .facerecognition-benefit-card {
+        min-height: 170px;
+
+        padding: 22px 18px;
+    }
+
+    .facerecognition-benefit-card h3 {
+        font-size: 13px;
+    }
+
+    .facerecognition-benefit-card p {
+        font-size: 11px;
+    }
+}
+
+
+
+
+

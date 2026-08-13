@@ -1,0 +1,1757 @@
+/* =====================================
+   JOB TIME HERO
+===================================== */
+
+.jobtime-hero {
+  width: 100%;
+  background: #1c3558;
+  color: #ffffff;
+
+  padding: 100px 0 45px;
+}
+
+.jobtime-container {
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+/* ROW */
+
+.jobtime-box {
+  min-height: 430px;
+
+  /* Bootstrap row handle pannum */
+  display: flex;
+  align-items: center;
+
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+/* LEFT CONTENT */
+
+.jobtime-left {
+  padding: 20px 30px;
+}
+
+.jobtime-tag {
+  display: inline-block;
+
+  margin-bottom: 16px;
+  padding: 7px 16px;
+
+  color: #009bea;
+
+  border: 1px solid #315887;
+  border-radius: 30px;
+
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.jobtime-title {
+  width: 100%;
+  max-width: 500px;
+
+  margin: 0 0 25px;
+
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+/* LIST */
+
+.jobtime-list {
+  margin: 0 0 28px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.jobtime-list li {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+
+  margin-bottom: 14px;
+
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.jobtime-list li svg {
+  flex-shrink: 0;
+
+  color: #009bea;
+
+  font-size: 14px;
+}
+
+/* BUTTON */
+
+.jobtime-demo-btn {
+  padding: 13px 30px;
+
+  color: #073eff;
+  background: #ffffff;
+
+  border: none;
+  border-radius: 12px;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.jobtime-demo-btn:hover {
+  transform: translateY(-3px);
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* RIGHT IMAGE */
+
+.jobtime-hero-image {
+  width: 100%;
+  min-height: 350px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+}
+
+.jobtime-hero-image img {
+  display: block;
+
+  width: 100%;
+  max-width: 380px;
+  height: 270px;
+
+  object-fit: cover;
+
+  border-radius: 0;
+}
+
+
+/* =====================================
+   TABLET
+===================================== */
+
+@media (max-width: 991px) {
+
+  .jobtime-hero {
+    padding: 70px 0 45px;
+  }
+
+  .jobtime-container {
+    max-width: 750px;
+
+    padding: 0 25px;
+  }
+
+  .jobtime-box {
+    min-height: auto;
+  }
+
+  .jobtime-left {
+    padding: 25px 20px;
+
+    text-align: center;
+  }
+
+  .jobtime-tag {
+    font-size: 11px;
+  }
+
+  .jobtime-title {
+    max-width: 520px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 27px;
+  }
+
+  .jobtime-list {
+    width: 100%;
+    max-width: 420px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: left;
+  }
+
+  .jobtime-hero-image {
+    min-height: auto;
+
+    margin-top: 20px;
+  }
+
+  .jobtime-hero-image img {
+    max-width: 370px;
+    height: 250px;
+  }
+}
+
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media (max-width: 767px) {
+
+  .jobtime-container {
+    padding: 0 18px;
+
+  }
+
+  .jobtime-left {
+    padding: 20px 5px;
+  }
+
+  .jobtime-tag {
+    padding: 6px 13px;
+
+    font-size: 10px;
+  }
+
+  .jobtime-title {
+    max-width: 350px;
+
+    margin-bottom: 22px;
+
+    font-size: 23px;
+    line-height: 1.4;
+  }
+
+  .jobtime-list {
+    max-width: 330px;
+
+    margin-bottom: 25px;
+  }
+
+  .jobtime-list li {
+    gap: 10px;
+
+    margin-bottom: 12px;
+
+    font-size: 13px;
+  }
+
+  .jobtime-list li svg {
+    font-size: 13px;
+  }
+
+  .jobtime-demo-btn {
+    padding: 12px 27px;
+
+    font-size: 13px;
+  }
+
+  .jobtime-hero-image {
+    padding: 15px 0;
+
+    margin-top: 15px;
+  }
+
+  .jobtime-hero-image img {
+    width: 100%;
+    max-width: 330px;
+    height: 220px;
+
+    object-fit: cover;
+  }
+}
+
+
+/* =====================================
+   SMALL MOBILE
+===================================== */
+
+@media (max-width: 480px) {
+
+  .jobtime-hero {
+    padding-top: 60px;
+  }
+
+  .jobtime-title {
+    max-width: 310px;
+
+    font-size: 21px;
+  }
+
+  .jobtime-list {
+    max-width: 300px;
+  }
+
+  .jobtime-list li {
+    font-size: 12px;
+  }
+
+  .jobtime-hero-image img {
+    max-width: 300px;
+    height: 190px;
+  }
+}
+
+
+
+
+
+/* ---------- VIDEO ---------- */
+.jobtime-video-section {
+  position: relative;
+  height: 300px;
+  padding-top: 30px;
+  color: #ffffff;
+  background: #1c3558;
+}
+
+.jobtime-video-section .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.jobtime-video-title {
+  margin: 0 0 25px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.jobtime-video-box {
+  position: relative;
+  width: 100%;
+  max-width: 550px;
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #000000;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  z-index: 2;
+}
+
+.jobtime-video-box iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+}
+
+/* ---------- STATS ---------- */
+.jobtime-stats-section {
+  padding: 160px 0 70px;
+  background: #ffffff;
+}
+
+.jobtime-stats {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.jobtime-stat-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.jobtime-stat-icon {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #0a94dd;
+  background: #eef8ff;
+  border-radius: 18px;
+  font-size: 28px;
+}
+
+.jobtime-stat-item h3 {
+  margin: 0 0 4px;
+  color: #172b4d;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.jobtime-stat-item p {
+  margin: 0;
+  color: #666666;
+  font-size: 17px;
+}
+
+/* =========================================
+   JOB TIME OVERVIEW SECTION
+========================================= */
+
+.jobtime-overview-section {
+    width: 100%;
+    padding: 30px 0 0;
+    background: #ffffff;
+}
+
+.jobtime-overview-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.jobtime-overview-content {
+    text-align: center;
+}
+
+.jobtime-small-title {
+    display: inline-block;
+    margin-bottom: 25px;
+    color: #0789ed;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.jobtime-overview-content h2 {
+    margin: 0 auto 25px;
+    color: #000000;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.jobtime-overview-content p {
+    max-width: 900px;
+    margin: 0 auto 45px;
+    color: #344054;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.jobtime-overview-image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jobtime-overview-image img {
+    display: block;
+    width: 100%;
+    max-width: 760px;
+    height: 450px;
+    object-fit: contain;
+}
+
+/* =========================================
+   JOB TIME BENEFITS SECTION
+========================================= */
+
+.jobtime-benefits-section {
+    width: 100%;
+    padding: 70px 0 80px;
+    background: #ffffff;
+}
+
+.jobtime-benefits-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.jobtime-benefits-heading {
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.jobtime-benefits-heading span {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #0789ed;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.jobtime-benefits-heading h2 {
+    margin: 0;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.jobtime-benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+}
+
+.jobtime-benefit-card {
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 25px;
+    text-align: center;
+    background: #eef3f8;
+    border-radius: 15px;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.jobtime-benefit-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 15px 35px rgba(25, 55, 95, 0.12);
+}
+
+.jobtime-benefit-card.benefit-large {
+    grid-column: span 2;
+}
+
+.jobtime-benefit-card.benefit-small {
+    grid-column: span 1;
+}
+
+.jobtime-benefit-card.benefit-wide {
+    grid-column: span 2;
+}
+
+.jobtime-benefit-icon {
+    width: 46px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    color: #6f88ad;
+    background: #ffffff;
+    border-radius: 50%;
+    font-size: 21px;
+}
+
+.jobtime-benefit-card h3 {
+    margin: 0 0 10px;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.jobtime-benefit-card p {
+    max-width: 390px;
+    margin: 0;
+    color: #44546a;
+    font-size: 11px;
+    line-height: 1.7;
+}
+
+/* ---------- FEATURES ---------- */
+.jobtime-features-section {
+  background: #dbe7f5;
+  padding: 80px 0;
+}
+
+.jobtime-features-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 35px;
+}
+
+.jobtime-feature-row {
+  width: 100%;
+  min-height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  margin-bottom: 70px;
+}
+
+.jobtime-feature-row:last-child {
+  margin-bottom: 0;
+}
+
+.jobtime-feature-reverse {
+  flex-direction: row-reverse;
+}
+
+.jobtime-feature-content {
+  width: 50%;
+  max-width: 500px;
+}
+
+.jobtime-feature-tag {
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 7px 15px;
+  color: #1e3a2f;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.jobtime-feature-content h2 {
+  max-width: 500px;
+  margin: 0 0 18px;
+  color: #000000;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.jobtime-feature-description {
+  max-width: 500px;
+  margin: 0 0 28px;
+  color: #34445b;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.jobtime-faq-wrapper {
+  width: 100%;
+}
+
+.jobtime-faq-wrapper h4 {
+  margin: 0 0 5px;
+  color: #25334a;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.jobtime-faq-item {
+  width: 100%;
+  border-bottom: 1px solid rgba(30, 58, 47, 0.1);
+}
+
+.jobtime-faq-question {
+  width: 100%;
+  padding: 14px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  color: #000000;
+  background: transparent;
+  border: none;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.jobtime-faq-question svg {
+  flex-shrink: 0;
+  color: #6e7b8d;
+  font-size: 11px;
+}
+
+.jobtime-faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.35s ease, opacity 0.3s ease, padding 0.35s ease;
+}
+
+.jobtime-faq-answer.show {
+  max-height: 150px;
+  opacity: 1;
+  padding-bottom: 14px;
+}
+
+.jobtime-faq-answer p {
+  max-width: 440px;
+  margin: 0;
+  color: #536177;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.jobtime-feature-image {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jobtime-feature-image img {
+  display: block;
+  width: 100%;
+  max-width: 430px;
+  max-height: 380px;
+  object-fit: contain;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+/* Tablet */
+@media (max-width: 991px) {
+  .jobtime-container {
+    max-width: 750px;
+    padding: 25px;
+  }
+
+  .jobtime-box {
+    min-height: auto;
+  }
+
+  .jobtime-left {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .jobtime-list {
+    width: 100%;
+    max-width: 420px;
+    text-align: left;
+  }
+
+  .jobtime-hero-image {
+    margin-top: 40px;
+  }
+
+  .jobtime-hero-image img {
+    max-width: 350px;
+  }
+
+  .jobtime-video-section {
+    height: 270px;
+    padding-top: 28px;
+  }
+
+  .jobtime-video-title {
+    font-size: 24px;
+  }
+
+  .jobtime-video-box {
+    max-width: 500px;
+    border-radius: 22px;
+  }
+
+  .jobtime-stats-section {
+    padding: 130px 25px 60px;
+  }
+
+  .jobtime-stats {
+    max-width: 700px;
+    gap: 20px;
+  }
+
+  .jobtime-stat-item {
+    gap: 14px;
+  }
+
+  .jobtime-stat-icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 15px;
+    font-size: 23px;
+  }
+
+  .jobtime-stat-item h3 {
+    font-size: 26px;
+  }
+
+  .jobtime-stat-item p {
+    font-size: 15px;
+  }
+
+  .jobtime-overview-container {
+    max-width: 750px;
+    padding: 0 20px;
+  }
+
+  .jobtime-overview-content h2 {
+    font-size: 32px;
+  }
+
+  .jobtime-overview-content p {
+    max-width: 650px;
+    font-size: 16px;
+  }
+
+  .jobtime-overview-image img {
+    max-width: 600px;
+    height: 380px;
+  }
+
+  .jobtime-benefits-container {
+    max-width: 720px;
+  }
+
+  .jobtime-benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .jobtime-benefit-card.benefit-large,
+  .jobtime-benefit-card.benefit-small,
+  .jobtime-benefit-card.benefit-wide {
+    grid-column: span 1;
+  }
+
+  .jobtime-benefit-card:last-child {
+    grid-column: span 2;
+  }
+
+  .jobtime-benefit-card {
+    min-height: 210px;
+  }
+
+  .jobtime-benefits-heading h2 {
+    font-size: 26px;
+  }
+
+  .jobtime-features-section {
+    padding: 65px 0;
+  }
+
+  .jobtime-features-container {
+    max-width: 760px;
+    padding: 0 30px;
+  }
+
+  .jobtime-feature-row,
+  .jobtime-feature-reverse {
+    min-height: auto;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 90px;
+  }
+
+  .jobtime-feature-content,
+  .jobtime-feature-image {
+    width: 100%;
+  }
+
+  .jobtime-feature-content {
+    max-width: 620px;
+  }
+
+  .jobtime-feature-image {
+    order: 2;
+  }
+
+  .jobtime-feature-content {
+    order: 1;
+  }
+
+  .jobtime-feature-content h2 {
+    font-size: 30px;
+  }
+
+  .jobtime-feature-image img {
+    max-width: 400px;
+    max-height: 350px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .jobtime-hero {
+    padding-top: 70px;
+    padding-bottom: 35px;
+  }
+
+  .jobtime-container {
+    padding: 20px;
+  }
+
+  .jobtime-left {
+    padding: 10px;
+  }
+
+  .jobtime-tag {
+    padding: 7px 14px;
+    font-size: 11px;
+  }
+
+  .jobtime-title {
+    font-size: 25px;
+  }
+
+  .jobtime-list {
+    max-width: 350px;
+  }
+
+  .jobtime-list li {
+    font-size: 14px;
+  }
+
+  .jobtime-demo-btn {
+    padding: 12px 27px;
+    font-size: 14px;
+  }
+
+  .jobtime-hero-image {
+    margin-top: 30px;
+  }
+
+  .jobtime-hero-image img {
+    max-width: 300px;
+  }
+
+  .jobtime-video-section {
+    height: 220px;
+    padding-top: 25px;
+  }
+
+  .jobtime-video-section .container {
+    padding: 0 18px;
+  }
+
+  .jobtime-video-title {
+    max-width: 320px;
+    margin: 0 auto 22px;
+    font-size: 21px;
+  }
+
+  .jobtime-video-box {
+    max-width: 420px;
+    border-radius: 18px;
+  }
+
+  .jobtime-stats-section {
+    padding: 55px 20px 45px;
+  }
+
+  .jobtime-stats {
+    max-width: 220px;
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .jobtime-stat-item {
+    justify-content: flex-start;
+    gap: 15px;
+  }
+
+  .jobtime-stat-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 13px;
+    font-size: 19px;
+  }
+
+  .jobtime-stat-item h3 {
+    font-size: 22px;
+  }
+
+  .jobtime-stat-item p {
+    font-size: 13px;
+  }
+
+  .jobtime-overview-section {
+    padding-top: 25px;
+  }
+
+  .jobtime-overview-container {
+    max-width: 520px;
+    padding: 0 12px;
+  }
+
+  .jobtime-overview-content h2 {
+    font-size: 22px;
+  }
+
+  .jobtime-overview-content p {
+    font-size: 13px;
+  }
+
+  .jobtime-overview-image img {
+    max-width: 400px;
+    height: 280px;
+  }
+
+  .jobtime-benefits-section {
+    padding: 50px 0;
+  }
+
+  .jobtime-benefits-container {
+    padding: 0 18px;
+  }
+
+  .jobtime-benefits-heading {
+    margin-bottom: 28px;
+  }
+
+  .jobtime-benefits-heading span {
+    margin-bottom: 8px;
+    font-size: 11px;
+  }
+
+  .jobtime-benefits-heading h2 {
+    font-size: 23px;
+    line-height: 1.4;
+  }
+
+  .jobtime-benefits-grid {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .jobtime-benefit-card.benefit-large,
+  .jobtime-benefit-card.benefit-small,
+  .jobtime-benefit-card.benefit-wide,
+  .jobtime-benefit-card:last-child {
+    grid-column: span 1;
+  }
+
+  .jobtime-benefit-card {
+    width: 100%;
+    min-height: 180px;
+    padding: 25px 20px;
+    border-radius: 14px;
+  }
+
+  .jobtime-benefit-icon {
+    width: 43px;
+    height: 43px;
+    margin-bottom: 15px;
+    font-size: 19px;
+  }
+
+  .jobtime-benefit-card h3 {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  .jobtime-benefit-card p {
+    max-width: 290px;
+    font-size: 12px;
+    line-height: 1.7;
+  }
+
+  .jobtime-features-section {
+    padding: 50px 0;
+  }
+
+  .jobtime-features-container {
+    max-width: 520px;
+    padding: 0 20px;
+  }
+
+  .jobtime-feature-row,
+  .jobtime-feature-reverse {
+    gap: 30px;
+    margin-bottom: 75px;
+  }
+
+  .jobtime-feature-tag {
+    font-size: 10px;
+  }
+
+  .jobtime-feature-content h2 {
+    font-size: 26px;
+  }
+
+  .jobtime-feature-description {
+    font-size: 14px;
+  }
+
+  .jobtime-faq-question {
+    font-size: 13px;
+  }
+
+  .jobtime-faq-answer p {
+    font-size: 12px;
+  }
+
+  .jobtime-feature-image img {
+    max-width: 330px;
+    max-height: 290px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .jobtime-video-section {
+    height: 190px;
+    padding-top: 22px;
+  }
+
+  .jobtime-video-title {
+    max-width: 280px;
+    font-size: 18px;
+  }
+
+  .jobtime-video-box {
+    border-radius: 16px;
+  }
+
+  .jobtime-stats-section {
+    padding: 120px 15px 40px;
+  }
+
+  .jobtime-stats {
+    max-width: 250px;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .jobtime-benefits-section {
+    padding: 40px 0;
+  }
+
+  .jobtime-benefits-container {
+    padding: 0 15px;
+  }
+
+  .jobtime-benefits-heading h2 {
+    font-size: 21px;
+  }
+
+  .jobtime-benefits-grid {
+    max-width: 320px;
+  }
+
+  .jobtime-benefit-card {
+    min-height: 170px;
+    padding: 22px 18px;
+  }
+
+  .jobtime-benefit-card h3 {
+    font-size: 13px;
+  }
+
+  .jobtime-benefit-card p {
+    font-size: 11px;
+  }
+
+  .jobtime-features-container {
+    padding: 0 17px;
+  }
+
+  .jobtime-feature-row,
+  .jobtime-feature-reverse {
+    margin-bottom: 65px;
+  }
+
+  .jobtime-feature-content h2 {
+    font-size: 23px;
+  }
+
+  .jobtime-feature-description {
+    font-size: 13px;
+  }
+
+  .jobtime-faq-question {
+    font-size: 12px;
+  }
+
+  .jobtime-feature-image img {
+    max-width: 290px;
+    max-height: 260px;
+  }
+}
+
+/* =========================================
+   JOB TIME SOLUTIONS SECTION
+========================================= */
+
+.jobtime-solutions-section {
+  width: 100%;
+}
+
+.jobtime-solutions-wrapper {
+  background: #dbe2ee;
+  border-radius: 30px;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 35px;
+  align-items: start;
+}
+
+.jobtime-solutions-left h2 {
+  margin: 0;
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.jobtime-solutions-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.jobtime-solutions-card {
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 35px 30px;
+  background: #fff;
+  border-radius: 22px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.jobtime-solutions-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+}
+
+.jobtime-solutions-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8b9bbc;
+  font-size: 38px;
+  flex-shrink: 0;
+}
+
+.jobtime-solutions-card span {
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* Solutions Tablet */
+@media (max-width: 991px) {
+  .jobtime-solutions-wrapper {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 35px 25px;
+  }
+
+  .jobtime-solutions-left {
+    text-align: center;
+  }
+
+  .jobtime-solutions-left h2 {
+    font-size: 34px;
+  }
+
+  .jobtime-solutions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .jobtime-solutions-card {
+    min-height: 130px;
+    padding: 30px 22px;
+  }
+
+  .jobtime-solutions-card span {
+    font-size: 18px;
+  }
+
+  .jobtime-solutions-icon {
+    font-size: 32px;
+  }
+}
+
+/* Solutions Mobile */
+@media (max-width: 767px) {
+  .jobtime-solutions-section {
+    padding: 50px 0;
+  }
+
+  .jobtime-solutions-wrapper {
+    padding: 25px 18px;
+    border-radius: 22px;
+  }
+
+  .jobtime-solutions-left h2 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .jobtime-solutions-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .jobtime-solutions-card {
+    min-height: auto;
+    padding: 22px 18px;
+    border-radius: 18px;
+  }
+
+  .jobtime-solutions-icon {
+    width: 45px;
+    height: 45px;
+    font-size: 28px;
+  }
+
+  .jobtime-solutions-card span {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+/* Solutions Small Mobile */
+@media (max-width: 480px) {
+  .jobtime-solutions-section {
+    padding: 40px 0;
+  }
+
+  .jobtime-solutions-wrapper {
+    padding: 20px 15px;
+  }
+
+  .jobtime-solutions-left h2 {
+    font-size: 24px;
+  }
+
+  .jobtime-solutions-card {
+    padding: 18px 15px;
+    gap: 15px;
+  }
+
+  .jobtime-solutions-icon {
+    font-size: 24px;
+  }
+
+  .jobtime-solutions-card span {
+    font-size: 15px;
+  }
+}
+
+
+/* =========================================
+   JOB TIME PROBLEM & SOLUTION
+========================================= */
+
+.jobtime-problem-section {
+    padding: 70px 0;
+    background: #dce7f5;
+}
+
+.jobtime-problem-container {
+    max-width: 1080px;
+}
+
+.jobtime-problem-heading {
+    margin-bottom: 50px;
+}
+
+.jobtime-problem-heading span {
+    display: inline-block;
+    margin-bottom: 15px;
+
+    color: #0789ed;
+
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.jobtime-problem-heading h2 {
+    margin: 0;
+
+    color: #000000;
+
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+/* GRID */
+
+.jobtime-problem-grid {
+    display: grid;
+
+    grid-template-columns: 380px 1fr;
+
+    gap: 60px;
+
+    align-items: start;
+}
+
+
+/* TABS */
+
+.jobtime-problem-tabs {
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+.jobtime-problem-tab {
+    width: 100%;
+    min-height: 72px;
+
+    padding: 18px 28px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 18px;
+
+    color: #4b5565;
+    background: #ffffff;
+
+    border: none;
+    border-radius: 12px;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    text-align: left;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+
+    transition: 0.3s ease;
+}
+
+.jobtime-problem-tab:hover {
+    transform: translateY(-2px);
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.jobtime-problem-tab.active {
+    color: #ffffff;
+
+    background: #173de8;
+
+    box-shadow: 0 8px 20px rgba(23, 61, 232, 0.25);
+}
+
+.jobtime-problem-tab-icon {
+    min-width: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 20px;
+}
+
+
+/* CONTENT */
+
+.jobtime-problem-content {
+    min-width: 0;
+}
+
+.jobtime-problem-content h3 {
+    margin: 15px 0;
+
+    color: #000000;
+
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.jobtime-problem-description {
+    max-width: 650px;
+
+    margin: 0 0 30px;
+
+    color: #344054;
+
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+/* POINTS */
+
+.jobtime-problem-points {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px 35px;
+
+    margin-bottom: 35px;
+}
+
+.jobtime-problem-point {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+}
+
+.jobtime-problem-point span {
+    display: flex;
+
+    color: #71839c;
+
+    font-size: 18px;
+}
+
+.jobtime-problem-point p {
+    margin: 0;
+
+    color: #344054;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* IMAGE */
+
+.jobtime-problem-image {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation: jobtimeProblemFade 0.45s ease;
+}
+
+.jobtime-problem-image img {
+    display: block;
+
+    width: 100%;
+    max-width: 520px;
+    height: 270px;
+
+    object-fit: contain;
+}
+
+@keyframes jobtimeProblemFade {
+
+    from {
+        opacity: 0;
+
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+
+        transform: translateY(0);
+    }
+
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    .jobtime-problem-section {
+        padding: 60px 0;
+    }
+
+    .jobtime-problem-container {
+        max-width: 750px;
+
+        padding: 0 20px;
+    }
+
+    .jobtime-problem-heading {
+        margin-bottom: 40px;
+    }
+
+    .jobtime-problem-heading h2 {
+        font-size: 32px;
+    }
+
+    .jobtime-problem-grid {
+        grid-template-columns: 300px 1fr;
+
+        gap: 35px;
+    }
+
+    .jobtime-problem-tab {
+        min-height: 65px;
+
+        padding: 15px 18px;
+
+        font-size: 14px;
+    }
+
+    .jobtime-problem-content h3 {
+        font-size: 24px;
+    }
+
+    .jobtime-problem-points {
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+    }
+
+    .jobtime-problem-image img {
+        height: 230px;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .jobtime-problem-section {
+        padding: 50px 0;
+    }
+
+    .jobtime-problem-container {
+        padding: 0 15px;
+    }
+
+    .jobtime-problem-heading {
+        margin-bottom: 30px;
+
+        text-align: center;
+    }
+
+    .jobtime-problem-heading span {
+        margin-bottom: 10px;
+
+        font-size: 13px;
+    }
+
+    .jobtime-problem-heading h2 {
+        font-size: 26px;
+
+        line-height: 1.4;
+    }
+
+    .jobtime-problem-grid {
+        display: block;
+    }
+
+
+    /* MOBILE TABS */
+
+    .jobtime-problem-tabs {
+        width: 100%;
+
+        margin-bottom: 30px;
+
+        display: flex;
+        flex-direction: row;
+
+        gap: 10px;
+
+        overflow-x: auto;
+
+        padding-bottom: 8px;
+
+        scrollbar-width: none;
+    }
+
+    .jobtime-problem-tabs::-webkit-scrollbar {
+        display: none;
+    }
+
+    .jobtime-problem-tab {
+        width: auto;
+        min-width: 220px;
+        min-height: 58px;
+
+        flex-shrink: 0;
+
+        padding: 13px 16px;
+
+        border-radius: 10px;
+
+        font-size: 13px;
+    }
+
+    .jobtime-problem-tab-icon {
+        min-width: 20px;
+
+        font-size: 17px;
+    }
+
+
+    /* CONTENT */
+
+    .jobtime-problem-content h3 {
+        margin-top: 0;
+
+        font-size: 23px;
+        line-height: 1.4;
+    }
+
+    .jobtime-problem-description {
+        margin-bottom: 25px;
+
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .jobtime-problem-points {
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+
+        margin-bottom: 25px;
+    }
+
+    .jobtime-problem-point p {
+        font-size: 13px;
+    }
+
+    .jobtime-problem-image img {
+        max-width: 100%;
+
+        height: auto;
+
+        max-height: 260px;
+    }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 400px) {
+
+    .jobtime-problem-heading h2 {
+        font-size: 23px;
+    }
+
+    .jobtime-problem-tab {
+        min-width: 200px;
+
+        font-size: 12px;
+    }
+
+    .jobtime-problem-content h3 {
+        font-size: 21px;
+    }
+
+}

@@ -1,0 +1,293 @@
+
+/* =========================================
+   FAQ SECTION
+========================================= */
+
+.leave-faq-section {
+    width: 100%;
+
+    padding: 65px 0 75px;
+
+    background: #ffffff;
+}
+
+.leave-faq-container {
+    width: 100%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    padding: 0 30px;
+}
+
+
+/* =========================================
+   HEADING
+========================================= */
+
+.leave-faq-heading {
+    margin-bottom: 35px;
+
+    text-align: center;
+}
+
+.leave-faq-heading h2 {
+    position: relative;
+
+    display: inline-block;
+
+    margin: 0;
+
+    color: #000000;
+
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.leave-faq-shape {
+    position: absolute;
+
+    top: 0;
+    right: -25px;
+
+    width: 14px;
+    height: 20px;
+
+    background: #078ed5;
+
+    border-radius: 3px;
+
+    transform: rotate(-10deg);
+}
+
+
+/* =========================================
+   FAQ LIST
+========================================= */
+
+.leave-faq-list {
+    width: 100%;
+}
+
+
+/* =========================================
+   FAQ ITEM
+========================================= */
+
+.leave-faq-item {
+    width: 100%;
+
+    border-bottom: 1px solid #dfe4ea;
+}
+
+
+/* =========================================
+   QUESTION
+========================================= */
+
+.leave-faq-question {
+    width: 100%;
+
+    padding: 27px 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 25px;
+
+    color: #101828;
+    background: transparent;
+
+    border: none;
+
+    text-align: left;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    cursor: pointer;
+}
+
+.leave-faq-question:hover {
+    color: #078ed5;
+}
+
+
+/* =========================================
+   ICON
+========================================= */
+
+.leave-faq-icon {
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #101828;
+
+    font-size: 11px;
+
+    transition: 0.3s ease;
+}
+
+.leave-faq-item.active .leave-faq-icon {
+    color: #078ed5;
+}
+
+
+/* =========================================
+   ANSWER
+========================================= */
+
+.leave-faq-answer {
+    display: grid;
+
+    grid-template-rows: 0fr;
+
+    opacity: 0;
+
+    transition:
+        grid-template-rows 0.4s ease,
+        opacity 0.3s ease;
+}
+
+.leave-faq-answer-inner {
+    overflow: hidden;
+}
+
+.leave-faq-item.active .leave-faq-answer {
+    grid-template-rows: 1fr;
+
+    opacity: 1;
+}
+
+.leave-faq-answer p {
+    max-width: 850px;
+
+    margin: 0;
+
+    padding: 0 15px 25px;
+
+    color: #667085;
+
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    .leave-faq-section {
+        padding: 55px 0 65px;
+    }
+
+    .leave-faq-container {
+        max-width: 800px;
+
+        padding: 0 25px;
+    }
+
+    .leave-faq-heading h2 {
+        font-size: 30px;
+    }
+
+    .leave-faq-question {
+        padding: 24px 12px;
+
+        font-size: 15px;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .leave-faq-section {
+        padding: 45px 0 55px;
+    }
+
+    .leave-faq-container {
+        padding: 0 18px;
+    }
+
+    .leave-faq-heading {
+        margin-bottom: 25px;
+    }
+
+    .leave-faq-heading h2 {
+        font-size: 25px;
+    }
+
+    .leave-faq-shape {
+        right: -19px;
+
+        width: 11px;
+        height: 16px;
+    }
+
+    .leave-faq-question {
+        padding: 20px 5px;
+
+        gap: 15px;
+
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .leave-faq-icon {
+        font-size: 10px;
+    }
+
+    .leave-faq-answer p {
+        padding: 0 5px 20px;
+
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+
+    .leave-faq-section {
+        padding: 35px 0 45px;
+    }
+
+    .leave-faq-container {
+        padding: 0 15px;
+    }
+
+    .leave-faq-heading h2 {
+        font-size: 22px;
+    }
+
+    .leave-faq-question {
+        padding: 18px 3px;
+
+        font-size: 13px;
+    }
+
+    .leave-faq-answer p {
+        padding-left: 3px;
+        padding-right: 3px;
+
+        font-size: 12.5px;
+    }
+
+}

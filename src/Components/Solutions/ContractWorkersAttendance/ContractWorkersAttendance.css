@@ -1,0 +1,1757 @@
+/* =====================================
+   CONTRACT WORKERS HERO
+===================================== */
+
+.contractworkers-hero {
+  width: 100%;
+  background: #1c3558;
+  color: #ffffff;
+
+  padding: 100px 0 45px;
+}
+
+.contractworkers-container {
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+/* ROW */
+
+.contractworkers-box {
+  min-height: 430px;
+
+  /* Bootstrap row handle pannum */
+  display: flex;
+  align-items: center;
+
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+/* LEFT CONTENT */
+
+.contractworkers-left {
+  padding: 20px 30px;
+}
+
+.contractworkers-tag {
+  display: inline-block;
+
+  margin-bottom: 16px;
+  padding: 7px 16px;
+
+  color: #009bea;
+
+  border: 1px solid #315887;
+  border-radius: 30px;
+
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.contractworkers-title {
+  width: 100%;
+  max-width: 500px;
+
+  margin: 0 0 25px;
+
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+/* LIST */
+
+.contractworkers-list {
+  margin: 0 0 28px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.contractworkers-list li {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+
+  margin-bottom: 14px;
+
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.contractworkers-list li svg {
+  flex-shrink: 0;
+
+  color: #009bea;
+
+  font-size: 14px;
+}
+
+/* BUTTON */
+
+.contractworkers-demo-btn {
+  padding: 13px 30px;
+
+  color: #073eff;
+  background: #ffffff;
+
+  border: none;
+  border-radius: 12px;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.contractworkers-demo-btn:hover {
+  transform: translateY(-3px);
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* RIGHT IMAGE */
+
+.contractworkers-hero-image {
+  width: 100%;
+  min-height: 350px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+}
+
+.contractworkers-hero-image img {
+  display: block;
+
+  width: 100%;
+  max-width: 380px;
+  height: 270px;
+
+  object-fit: cover;
+
+  border-radius: 0;
+}
+
+
+/* =====================================
+   TABLET
+===================================== */
+
+@media (max-width: 991px) {
+
+  .contractworkers-hero {
+    padding: 70px 0 45px;
+  }
+
+  .contractworkers-container {
+    max-width: 750px;
+
+    padding: 0 25px;
+  }
+
+  .contractworkers-box {
+    min-height: auto;
+  }
+
+  .contractworkers-left {
+    padding: 25px 20px;
+
+    text-align: center;
+  }
+
+  .contractworkers-tag {
+    font-size: 11px;
+  }
+
+  .contractworkers-title {
+    max-width: 520px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 27px;
+  }
+
+  .contractworkers-list {
+    width: 100%;
+    max-width: 420px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: left;
+  }
+
+  .contractworkers-hero-image {
+    min-height: auto;
+
+    margin-top: 20px;
+  }
+
+  .contractworkers-hero-image img {
+    max-width: 370px;
+    height: 250px;
+  }
+}
+
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media (max-width: 767px) {
+
+  .contractworkers-container {
+    padding: 0 18px;
+
+  }
+
+  .contractworkers-left {
+    padding: 20px 5px;
+  }
+
+  .contractworkers-tag {
+    padding: 6px 13px;
+
+    font-size: 10px;
+  }
+
+  .contractworkers-title {
+    max-width: 350px;
+
+    margin-bottom: 22px;
+
+    font-size: 23px;
+    line-height: 1.4;
+  }
+
+  .contractworkers-list {
+    max-width: 330px;
+
+    margin-bottom: 25px;
+  }
+
+  .contractworkers-list li {
+    gap: 10px;
+
+    margin-bottom: 12px;
+
+    font-size: 13px;
+  }
+
+  .contractworkers-list li svg {
+    font-size: 13px;
+  }
+
+  .contractworkers-demo-btn {
+    padding: 12px 27px;
+
+    font-size: 13px;
+  }
+
+  .contractworkers-hero-image {
+    padding: 15px 0;
+
+    margin-top: 15px;
+  }
+
+  .contractworkers-hero-image img {
+    width: 100%;
+    max-width: 330px;
+    height: 220px;
+
+    object-fit: cover;
+  }
+}
+
+
+/* =====================================
+   SMALL MOBILE
+===================================== */
+
+@media (max-width: 480px) {
+
+  .contractworkers-hero {
+    padding-top: 60px;
+  }
+
+  .contractworkers-title {
+    max-width: 310px;
+
+    font-size: 21px;
+  }
+
+  .contractworkers-list {
+    max-width: 300px;
+  }
+
+  .contractworkers-list li {
+    font-size: 12px;
+  }
+
+  .contractworkers-hero-image img {
+    max-width: 300px;
+    height: 190px;
+  }
+}
+
+
+
+
+
+/* ---------- VIDEO ---------- */
+.contractworkers-video-section {
+  position: relative;
+  height: 300px;
+  padding-top: 30px;
+  color: #ffffff;
+  background: #1c3558;
+}
+
+.contractworkers-video-section .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.contractworkers-video-title {
+  margin: 0 0 25px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.contractworkers-video-box {
+  position: relative;
+  width: 100%;
+  max-width: 550px;
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #000000;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  z-index: 2;
+}
+
+.contractworkers-video-box iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+}
+
+/* ---------- STATS ---------- */
+.contractworkers-stats-section {
+  padding: 160px 0 70px;
+  background: #ffffff;
+}
+
+.contractworkers-stats {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.contractworkers-stat-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contractworkers-stat-icon {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #0a94dd;
+  background: #eef8ff;
+  border-radius: 18px;
+  font-size: 28px;
+}
+
+.contractworkers-stat-item h3 {
+  margin: 0 0 4px;
+  color: #172b4d;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.contractworkers-stat-item p {
+  margin: 0;
+  color: #666666;
+  font-size: 17px;
+}
+
+/* =========================================
+   CONTRACT WORKERS OVERVIEW SECTION
+========================================= */
+
+.contractworkers-overview-section {
+    width: 100%;
+    padding: 30px 0 0;
+    background: #ffffff;
+}
+
+.contractworkers-overview-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.contractworkers-overview-content {
+    text-align: center;
+}
+
+.contractworkers-small-title {
+    display: inline-block;
+    margin-bottom: 25px;
+    color: #0789ed;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.contractworkers-overview-content h2 {
+    margin: 0 auto 25px;
+    color: #000000;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.contractworkers-overview-content p {
+    max-width: 900px;
+    margin: 0 auto 45px;
+    color: #344054;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.contractworkers-overview-image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contractworkers-overview-image img {
+    display: block;
+    width: 100%;
+    max-width: 760px;
+    height: 450px;
+    object-fit: contain;
+}
+
+/* =========================================
+   CONTRACT WORKERS BENEFITS SECTION
+========================================= */
+
+.contractworkers-benefits-section {
+    width: 100%;
+    padding: 70px 0 80px;
+    background: #ffffff;
+}
+
+.contractworkers-benefits-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contractworkers-benefits-heading {
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.contractworkers-benefits-heading span {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #0789ed;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.contractworkers-benefits-heading h2 {
+    margin: 0;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.contractworkers-benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+}
+
+.contractworkers-benefit-card {
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 25px;
+    text-align: center;
+    background: #eef3f8;
+    border-radius: 15px;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.contractworkers-benefit-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 15px 35px rgba(25, 55, 95, 0.12);
+}
+
+.contractworkers-benefit-card.benefit-large {
+    grid-column: span 2;
+}
+
+.contractworkers-benefit-card.benefit-small {
+    grid-column: span 1;
+}
+
+.contractworkers-benefit-card.benefit-wide {
+    grid-column: span 2;
+}
+
+.contractworkers-benefit-icon {
+    width: 46px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    color: #6f88ad;
+    background: #ffffff;
+    border-radius: 50%;
+    font-size: 21px;
+}
+
+.contractworkers-benefit-card h3 {
+    margin: 0 0 10px;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.contractworkers-benefit-card p {
+    max-width: 390px;
+    margin: 0;
+    color: #44546a;
+    font-size: 11px;
+    line-height: 1.7;
+}
+
+/* ---------- FEATURES ---------- */
+.contractworkers-features-section {
+  background: #dbe7f5;
+  /* padding: 80px 0; */
+}
+
+.contractworkers-features-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 35px;
+}
+
+.contractworkers-feature-row {
+  width: 100%;
+  min-height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  /* margin-bottom: 70px; */
+}
+
+.contractworkers-feature-row:last-child {
+  margin-bottom: 0;
+}
+
+.contractworkers-feature-reverse {
+  flex-direction: row-reverse;
+}
+
+.contractworkers-feature-content {
+  width: 50%;
+  max-width: 500px;
+}
+
+.contractworkers-feature-tag {
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 7px 15px;
+  color: #1e3a2f;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.contractworkers-feature-content h2 {
+  max-width: 500px;
+  margin: 0 0 18px;
+  color: #000000;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.contractworkers-feature-description {
+  max-width: 500px;
+  margin: 0 0 28px;
+  color: #34445b;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.contractworkers-faq-wrapper {
+  width: 100%;
+}
+
+.contractworkers-faq-wrapper h4 {
+  margin: 0 0 5px;
+  color: #25334a;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contractworkers-faq-item {
+  width: 100%;
+  border-bottom: 1px solid rgba(30, 58, 47, 0.1);
+}
+
+.contractworkers-faq-question {
+  width: 100%;
+  padding: 14px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  color: #000000;
+  background: transparent;
+  border: none;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.contractworkers-faq-question svg {
+  flex-shrink: 0;
+  color: #6e7b8d;
+  font-size: 11px;
+}
+
+.contractworkers-faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.35s ease, opacity 0.3s ease, padding 0.35s ease;
+}
+
+.contractworkers-faq-answer.show {
+  max-height: 150px;
+  opacity: 1;
+  padding-bottom: 14px;
+}
+
+.contractworkers-faq-answer p {
+  max-width: 440px;
+  margin: 0;
+  color: #536177;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.contractworkers-feature-image {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contractworkers-feature-image img {
+  display: block;
+  width: 100%;
+  max-width: 430px;
+  max-height: 380px;
+  object-fit: contain;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+/* Tablet */
+@media (max-width: 991px) {
+  .contractworkers-container {
+    max-width: 750px;
+    padding: 25px;
+  }
+
+  .contractworkers-box {
+    min-height: auto;
+  }
+
+  .contractworkers-left {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contractworkers-list {
+    width: 100%;
+    max-width: 420px;
+    text-align: left;
+  }
+
+  .contractworkers-hero-image {
+    margin-top: 40px;
+  }
+
+  .contractworkers-hero-image img {
+    max-width: 350px;
+  }
+
+  .contractworkers-video-section {
+    height: 270px;
+    padding-top: 28px;
+  }
+
+  .contractworkers-video-title {
+    font-size: 24px;
+  }
+
+  .contractworkers-video-box {
+    max-width: 500px;
+    border-radius: 22px;
+  }
+
+  .contractworkers-stats-section {
+    padding: 130px 25px 60px;
+  }
+
+  .contractworkers-stats {
+    max-width: 700px;
+    gap: 20px;
+  }
+
+  .contractworkers-stat-item {
+    gap: 14px;
+  }
+
+  .contractworkers-stat-icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 15px;
+    font-size: 23px;
+  }
+
+  .contractworkers-stat-item h3 {
+    font-size: 26px;
+  }
+
+  .contractworkers-stat-item p {
+    font-size: 15px;
+  }
+
+  .contractworkers-overview-container {
+    max-width: 750px;
+    padding: 0 20px;
+  }
+
+  .contractworkers-overview-content h2 {
+    font-size: 32px;
+  }
+
+  .contractworkers-overview-content p {
+    max-width: 650px;
+    font-size: 16px;
+  }
+
+  .contractworkers-overview-image img {
+    max-width: 600px;
+    height: 380px;
+  }
+
+  .contractworkers-benefits-container {
+    max-width: 720px;
+  }
+
+  .contractworkers-benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .contractworkers-benefit-card.benefit-large,
+  .contractworkers-benefit-card.benefit-small,
+  .contractworkers-benefit-card.benefit-wide {
+    grid-column: span 1;
+  }
+
+  .contractworkers-benefit-card:last-child {
+    grid-column: span 2;
+  }
+
+  .contractworkers-benefit-card {
+    min-height: 210px;
+  }
+
+  .contractworkers-benefits-heading h2 {
+    font-size: 26px;
+  }
+
+  .contractworkers-features-section {
+    padding: 65px 0;
+  }
+
+  .contractworkers-features-container {
+    max-width: 760px;
+    padding: 0 30px;
+  }
+
+  .contractworkers-feature-row,
+  .contractworkers-feature-reverse {
+    min-height: auto;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 90px;
+  }
+
+  .contractworkers-feature-content,
+  .contractworkers-feature-image {
+    width: 100%;
+  }
+
+  .contractworkers-feature-content {
+    max-width: 620px;
+  }
+
+  .contractworkers-feature-image {
+    order: 2;
+  }
+
+  .contractworkers-feature-content {
+    order: 1;
+  }
+
+  .contractworkers-feature-content h2 {
+    font-size: 30px;
+  }
+
+  .contractworkers-feature-image img {
+    max-width: 400px;
+    max-height: 350px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .contractworkers-hero {
+    padding-top: 70px;
+    padding-bottom: 35px;
+  }
+
+  .contractworkers-container {
+    padding: 20px;
+  }
+
+  .contractworkers-left {
+    padding: 10px;
+  }
+
+  .contractworkers-tag {
+    padding: 7px 14px;
+    font-size: 11px;
+  }
+
+  .contractworkers-title {
+    font-size: 25px;
+  }
+
+  .contractworkers-list {
+    max-width: 350px;
+  }
+
+  .contractworkers-list li {
+    font-size: 14px;
+  }
+
+  .contractworkers-demo-btn {
+    padding: 12px 27px;
+    font-size: 14px;
+  }
+
+  .contractworkers-hero-image {
+    margin-top: 30px;
+  }
+
+  .contractworkers-hero-image img {
+    max-width: 300px;
+  }
+
+  .contractworkers-video-section {
+    height: 220px;
+    padding-top: 25px;
+  }
+
+  .contractworkers-video-section .container {
+    padding: 0 18px;
+  }
+
+  .contractworkers-video-title {
+    max-width: 320px;
+    margin: 0 auto 22px;
+    font-size: 21px;
+  }
+
+  .contractworkers-video-box {
+    max-width: 420px;
+    border-radius: 18px;
+  }
+
+  .contractworkers-stats-section {
+    padding: 55px 20px 45px;
+  }
+
+  .contractworkers-stats {
+    max-width: 220px;
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .contractworkers-stat-item {
+    justify-content: flex-start;
+    gap: 15px;
+  }
+
+  .contractworkers-stat-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 13px;
+    font-size: 19px;
+  }
+
+  .contractworkers-stat-item h3 {
+    font-size: 22px;
+  }
+
+  .contractworkers-stat-item p {
+    font-size: 13px;
+  }
+
+  .contractworkers-overview-section {
+    padding-top: 25px;
+  }
+
+  .contractworkers-overview-container {
+    max-width: 520px;
+    padding: 0 12px;
+  }
+
+  .contractworkers-overview-content h2 {
+    font-size: 22px;
+  }
+
+  .contractworkers-overview-content p {
+    font-size: 13px;
+  }
+
+  .contractworkers-overview-image img {
+    max-width: 400px;
+    height: 280px;
+  }
+
+  .contractworkers-benefits-section {
+    padding: 50px 0;
+  }
+
+  .contractworkers-benefits-container {
+    padding: 0 18px;
+  }
+
+  .contractworkers-benefits-heading {
+    margin-bottom: 28px;
+  }
+
+  .contractworkers-benefits-heading span {
+    margin-bottom: 8px;
+    font-size: 11px;
+  }
+
+  .contractworkers-benefits-heading h2 {
+    font-size: 23px;
+    line-height: 1.4;
+  }
+
+  .contractworkers-benefits-grid {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .contractworkers-benefit-card.benefit-large,
+  .contractworkers-benefit-card.benefit-small,
+  .contractworkers-benefit-card.benefit-wide,
+  .contractworkers-benefit-card:last-child {
+    grid-column: span 1;
+  }
+
+  .contractworkers-benefit-card {
+    width: 100%;
+    min-height: 180px;
+    padding: 25px 20px;
+    border-radius: 14px;
+  }
+
+  .contractworkers-benefit-icon {
+    width: 43px;
+    height: 43px;
+    margin-bottom: 15px;
+    font-size: 19px;
+  }
+
+  .contractworkers-benefit-card h3 {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  .contractworkers-benefit-card p {
+    max-width: 290px;
+    font-size: 12px;
+    line-height: 1.7;
+  }
+
+  .contractworkers-features-section {
+    padding: 50px 0;
+  }
+
+  .contractworkers-features-container {
+    max-width: 520px;
+    padding: 0 20px;
+  }
+
+  .contractworkers-feature-row,
+  .contractworkers-feature-reverse {
+    gap: 30px;
+    margin-bottom: 75px;
+  }
+
+  .contractworkers-feature-tag {
+    font-size: 10px;
+  }
+
+  .contractworkers-feature-content h2 {
+    font-size: 26px;
+  }
+
+  .contractworkers-feature-description {
+    font-size: 14px;
+  }
+
+  .contractworkers-faq-question {
+    font-size: 13px;
+  }
+
+  .contractworkers-faq-answer p {
+    font-size: 12px;
+  }
+
+  .contractworkers-feature-image img {
+    max-width: 330px;
+    max-height: 290px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .contractworkers-video-section {
+    height: 190px;
+    padding-top: 22px;
+  }
+
+  .contractworkers-video-title {
+    max-width: 280px;
+    font-size: 18px;
+  }
+
+  .contractworkers-video-box {
+    border-radius: 16px;
+  }
+
+  .contractworkers-stats-section {
+    padding: 120px 15px 40px;
+  }
+
+  .contractworkers-stats {
+    max-width: 250px;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .contractworkers-benefits-section {
+    padding: 40px 0;
+  }
+
+  .contractworkers-benefits-container {
+    padding: 0 15px;
+  }
+
+  .contractworkers-benefits-heading h2 {
+    font-size: 21px;
+  }
+
+  .contractworkers-benefits-grid {
+    max-width: 320px;
+  }
+
+  .contractworkers-benefit-card {
+    min-height: 170px;
+    padding: 22px 18px;
+  }
+
+  .contractworkers-benefit-card h3 {
+    font-size: 13px;
+  }
+
+  .contractworkers-benefit-card p {
+    font-size: 11px;
+  }
+
+  .contractworkers-features-container {
+    padding: 0 17px;
+  }
+
+  .contractworkers-feature-row,
+  .contractworkers-feature-reverse {
+    margin-bottom: 65px;
+  }
+
+  .contractworkers-feature-content h2 {
+    font-size: 23px;
+  }
+
+  .contractworkers-feature-description {
+    font-size: 13px;
+  }
+
+  .contractworkers-faq-question {
+    font-size: 12px;
+  }
+
+  .contractworkers-feature-image img {
+    max-width: 290px;
+    max-height: 260px;
+  }
+}
+
+/* =========================================
+   CONTRACT WORKERS SOLUTIONS SECTION
+========================================= */
+
+.contractworkers-solutions-section {
+  width: 100%;
+}
+
+.contractworkers-solutions-wrapper {
+  background: #dbe2ee;
+  border-radius: 30px;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 35px;
+  align-items: start;
+}
+
+.contractworkers-solutions-left h2 {
+  margin: 0;
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.contractworkers-solutions-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.contractworkers-solutions-card {
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 35px 30px;
+  background: #fff;
+  border-radius: 22px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.contractworkers-solutions-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+}
+
+.contractworkers-solutions-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8b9bbc;
+  font-size: 38px;
+  flex-shrink: 0;
+}
+
+.contractworkers-solutions-card span {
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* Solutions Tablet */
+@media (max-width: 991px) {
+  .contractworkers-solutions-wrapper {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 35px 25px;
+  }
+
+  .contractworkers-solutions-left {
+    text-align: center;
+  }
+
+  .contractworkers-solutions-left h2 {
+    font-size: 34px;
+  }
+
+  .contractworkers-solutions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contractworkers-solutions-card {
+    min-height: 130px;
+    padding: 30px 22px;
+  }
+
+  .contractworkers-solutions-card span {
+    font-size: 18px;
+  }
+
+  .contractworkers-solutions-icon {
+    font-size: 32px;
+  }
+}
+
+/* Solutions Mobile */
+@media (max-width: 767px) {
+  .contractworkers-solutions-section {
+    padding: 50px 0;
+  }
+
+  .contractworkers-solutions-wrapper {
+    padding: 25px 18px;
+    border-radius: 22px;
+  }
+
+  .contractworkers-solutions-left h2 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .contractworkers-solutions-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .contractworkers-solutions-card {
+    min-height: auto;
+    padding: 22px 18px;
+    border-radius: 18px;
+  }
+
+  .contractworkers-solutions-icon {
+    width: 45px;
+    height: 45px;
+    font-size: 28px;
+  }
+
+  .contractworkers-solutions-card span {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+/* Solutions Small Mobile */
+@media (max-width: 480px) {
+  .contractworkers-solutions-section {
+    padding: 40px 0;
+  }
+
+  .contractworkers-solutions-wrapper {
+    padding: 20px 15px;
+  }
+
+  .contractworkers-solutions-left h2 {
+    font-size: 24px;
+  }
+
+  .contractworkers-solutions-card {
+    padding: 18px 15px;
+    gap: 15px;
+  }
+
+  .contractworkers-solutions-icon {
+    font-size: 24px;
+  }
+
+  .contractworkers-solutions-card span {
+    font-size: 15px;
+  }
+}
+
+
+/* =========================================
+   CONTRACT PROBLEM & SOLUTION
+========================================= */
+
+.contract-problem-section {
+    padding: 10px 0;
+    background: #dce7f5;
+}
+
+.contract-problem-container {
+    max-width: 1080px;
+}
+
+.contract-problem-heading {
+    margin-bottom: 50px;
+}
+
+.contract-problem-heading span {
+    display: inline-block;
+    margin-bottom: 15px;
+
+    color: #0789ed;
+
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.contract-problem-heading h2 {
+    margin: 0;
+
+    color: #000000;
+
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+/* GRID */
+
+.contract-problem-grid {
+    display: grid;
+
+    grid-template-columns: 380px 1fr;
+
+    gap: 60px;
+
+    align-items: start;
+}
+
+
+/* TABS */
+
+.contract-problem-tabs {
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+.contract-problem-tab {
+    width: 100%;
+    /* min-height: 72px; */
+
+    padding: 18px 28px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 18px;
+
+    color: #4b5565;
+    background: #ffffff;
+
+    border: none;
+    border-radius: 12px;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    text-align: left;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+
+    transition: 0.3s ease;
+}
+
+.contract-problem-tab:hover {
+    transform: translateY(-2px);
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.contract-problem-tab.active {
+    color: #ffffff;
+
+    background: #173de8;
+
+    box-shadow: 0 8px 20px rgba(23, 61, 232, 0.25);
+}
+
+.contract-problem-tab-icon {
+    min-width: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 20px;
+}
+
+
+/* CONTENT */
+
+.contract-problem-content {
+    min-width: 0;
+}
+
+.contract-problem-content h3 {
+    margin: 15px 0;
+
+    color: #000000;
+
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.contract-problem-description {
+    max-width: 650px;
+
+    margin: 0 0 30px;
+
+    color: #344054;
+
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+/* POINTS */
+
+.contract-problem-points {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px 35px;
+
+    margin-bottom: 35px;
+}
+
+.contract-problem-point {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+}
+
+.contract-problem-point span {
+    display: flex;
+
+    color: #71839c;
+
+    font-size: 18px;
+}
+
+.contract-problem-point p {
+    margin: 0;
+
+    color: #344054;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* IMAGE */
+
+.contract-problem-image {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation: contractProblemFade 0.45s ease;
+}
+
+.contract-problem-image img {
+    display: block;
+
+    width: 100%;
+    max-width: 520px;
+    height: 270px;
+
+    object-fit: contain;
+}
+
+@keyframes contractProblemFade {
+
+    from {
+        opacity: 0;
+
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+
+        transform: translateY(0);
+    }
+
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    .contract-problem-section {
+        padding: 60px 0;
+    }
+
+    .contract-problem-container {
+        max-width: 750px;
+
+        padding: 0 20px;
+    }
+
+    .contract-problem-heading {
+        margin-bottom: 40px;
+    }
+
+    .contract-problem-heading h2 {
+        font-size: 32px;
+    }
+
+    .contract-problem-grid {
+        grid-template-columns: 300px 1fr;
+
+        gap: 35px;
+    }
+
+    .contract-problem-tab {
+        min-height: 65px;
+
+        padding: 15px 18px;
+
+        font-size: 14px;
+    }
+
+    .contract-problem-content h3 {
+        font-size: 24px;
+    }
+
+    .contract-problem-points {
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+    }
+
+    .contract-problem-image img {
+        height: 230px;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .contract-problem-section {
+        padding: 50px 0;
+    }
+
+    .contract-problem-container {
+        padding: 0 15px;
+    }
+
+    .contract-problem-heading {
+        margin-bottom: 30px;
+
+        text-align: center;
+    }
+
+    .contract-problem-heading span {
+        margin-bottom: 10px;
+
+        font-size: 13px;
+    }
+
+    .contract-problem-heading h2 {
+        font-size: 26px;
+
+        line-height: 1.4;
+    }
+
+    .contract-problem-grid {
+        display: block;
+    }
+
+
+    /* MOBILE TABS */
+
+    .contract-problem-tabs {
+        width: 100%;
+
+        margin-bottom: 30px;
+
+        display: flex;
+        flex-direction: row;
+
+        gap: 10px;
+
+        overflow-x: auto;
+
+        padding-bottom: 8px;
+
+        scrollbar-width: none;
+    }
+
+    .contract-problem-tabs::-webkit-scrollbar {
+        display: none;
+    }
+
+    .contract-problem-tab {
+        width: auto;
+        min-width: 220px;
+        min-height: 58px;
+
+        flex-shrink: 0;
+
+        padding: 13px 16px;
+
+        border-radius: 10px;
+
+        font-size: 13px;
+    }
+
+    .contract-problem-tab-icon {
+        min-width: 20px;
+
+        font-size: 17px;
+    }
+
+
+    /* CONTENT */
+
+    .contract-problem-content h3 {
+        margin-top: 0;
+
+        font-size: 23px;
+        line-height: 1.4;
+    }
+
+    .contract-problem-description {
+        margin-bottom: 25px;
+
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .contract-problem-points {
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+
+        margin-bottom: 25px;
+    }
+
+    .contract-problem-point p {
+        font-size: 13px;
+    }
+
+    .contract-problem-image img {
+        max-width: 100%;
+
+        height: auto;
+
+        max-height: 260px;
+    }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 400px) {
+
+    .contract-problem-heading h2 {
+        font-size: 23px;
+    }
+
+    .contract-problem-tab {
+        min-width: 200px;
+
+        font-size: 12px;
+    }
+
+    .contract-problem-content h3 {
+        font-size: 21px;
+    }
+
+}

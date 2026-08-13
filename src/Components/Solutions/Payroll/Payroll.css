@@ -1,0 +1,603 @@
+/* =========================================
+   PAYROLL HERO SECTION
+========================================= */
+
+.payroll-hero {
+    width: 100%;
+    padding: 55px 0;
+    background: #ffffff;
+}
+
+.payroll-hero-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 55px auto;
+    padding: 0 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
+}
+
+/* =========================================
+   LEFT CONTENT
+========================================= */
+
+.payroll-hero-content {
+    width: 100%;
+    max-width: 560px;
+}
+
+.payroll-hero-content h1 {
+    position: relative;
+    margin: 0 0 22px;
+    color: #000000;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.payroll-blue-shape {
+    display: inline-block;
+    width: 16px;
+    height: 20px;
+    margin-left: 8px;
+    background: #078ed5;
+    border-radius: 3px;
+    transform: rotate(-8deg);
+}
+
+.payroll-hero-content p {
+    max-width: 540px;
+    margin: 0 0 28px;
+    color: #667085;
+    font-size: 16px;
+    line-height: 1.65;
+}
+
+/* =========================================
+   BUTTON
+========================================= */
+
+.payroll-hero-btn {
+    padding: 14px 25px;
+    color: #ffffff;
+    background: #173de8;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.payroll-hero-btn:hover {
+    background: #0d2fc7;
+    transform: translateY(-3px);
+}
+
+/* =========================================
+   RIGHT IMAGE
+========================================= */
+
+.payroll-hero-image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.payroll-hero-image img {
+    display: block;
+    width: 100%;
+    max-width: 480px;
+    height: 390px;
+    object-fit: contain;
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+    .payroll-hero {
+        padding: 50px 0;
+    }
+
+    .payroll-hero-container {
+        max-width: 800px;
+        padding: 0 25px;
+        gap: 35px;
+    }
+
+    .payroll-hero-content h1 {
+        font-size: 28px;
+    }
+
+    .payroll-hero-content p {
+        font-size: 15px;
+    }
+
+    .payroll-hero-image img {
+        max-width: 380px;
+        height: 330px;
+    }
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+    .payroll-hero {
+        padding: 40px 0 30px;
+    }
+
+    .payroll-hero-container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 18px;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .payroll-hero-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .payroll-hero-content h1 {
+        margin-bottom: 18px;
+        font-size: 24px;
+        line-height: 1.35;
+    }
+
+    .payroll-hero-content h1 br {
+        display: none;
+    }
+
+    .payroll-blue-shape {
+        width: 12px;
+        height: 17px;
+        margin-left: 5px;
+    }
+
+    .payroll-hero-content p {
+        max-width: 500px;
+        margin: 0 auto 24px;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .payroll-hero-btn {
+        padding: 13px 23px;
+        font-size: 14px;
+    }
+
+    .payroll-hero-image img {
+        max-width: 340px;
+        height: 280px;
+    }
+}
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+    .payroll-hero {
+        padding: 10px 0 25px;
+    }
+
+    .payroll-hero-container {
+        padding: 0 15px;
+        gap: 25px;
+    }
+
+    .payroll-hero-content h1 {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .payroll-hero-content p {
+        font-size: 13px;
+        line-height: 1.65;
+    }
+
+    .payroll-hero-btn {
+        padding: 12px 21px;
+        font-size: 13px;
+    }
+
+    .payroll-hero-image img {
+        width: 100%;
+        max-width: 290px;
+        height: 240px;
+    }
+}
+
+/* =========================================
+   WHY CHOOSE PAYROLL
+========================================= */
+
+.payroll-choose-section {
+    position: relative;
+    /* padding: 65px 0 0; */
+    background: #ffffff;
+}
+
+.payroll-choose-container {
+    max-width: 1200px;
+}
+
+/* =========================================
+   HEADING
+========================================= */
+
+.payroll-choose-heading {
+    /* margin-bottom: 30px; */
+    text-align: center;
+}
+
+.payroll-choose-heading h2 {
+    margin: 0;
+    color: #000000;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+/* =========================================
+   SCROLL LAYOUT
+========================================= */
+
+.payroll-scroll-layout {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+}
+
+/* =========================================
+   LEFT CONTENT
+========================================= */
+
+.payroll-scroll-content {
+    min-width: 0;
+}
+
+.payroll-scroll-item {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    opacity: 0.3;
+    transform: translateY(30px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.payroll-scroll-item.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.payroll-scroll-text {
+    max-width: 500px;
+}
+
+.payroll-scroll-text h3 {
+    margin: 0 0 15px;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.payroll-scroll-text p {
+    margin: 0;
+    color: #344054;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* =========================================
+   RIGHT STICKY COLUMN
+========================================= */
+
+.payroll-sticky-column {
+    position: relative;
+}
+
+.payroll-sticky-image {
+    position: sticky;
+    top: 130px;
+    width: 100%;
+    height: calc(100vh - 170px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* =========================================
+   IMAGE CHANGE
+========================================= */
+
+.payroll-sticky-image img {
+    position: absolute;
+    width: 100%;
+    max-width: 470px;
+    max-height: 470px;
+    object-fit: contain;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(35px) scale(0.96);
+    transition: opacity 0.5s ease, visibility 0.5s ease, transform 0.5s ease;
+}
+
+.payroll-sticky-image img.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+}
+
+/* =========================================
+   PAYROLL FEATURES HIGHLIGHT
+========================================= */
+
+.payroll-features-highlight {
+    padding: 60px 0 40px;
+    background: #f8fafc;
+}
+
+.payroll-features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.payroll-feature-card {
+    background: #ffffff;
+    padding: 30px 25px;
+    border-radius: 14px;
+    text-align: center;
+    border: 1px solid #e8ecf2;
+    transition: all 0.3s ease;
+}
+
+.payroll-feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
+    border-color: #173de8;
+}
+
+.payroll-feature-icon {
+    font-size: 38px;
+    margin-bottom: 12px;
+}
+
+.payroll-feature-card h4 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #111;
+    margin: 0 0 8px;
+}
+
+.payroll-feature-card p {
+    font-size: 14px;
+    color: #667085;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+    .payroll-choose-section {
+        padding-top: 55px;
+    }
+
+    .payroll-choose-container {
+        max-width: 750px;
+        padding: 0 25px;
+    }
+
+    .payroll-choose-heading h2 {
+        font-size: 31px;
+    }
+
+    .payroll-scroll-layout {
+        gap: 35px;
+    }
+
+    .payroll-scroll-item {
+        min-height: 75vh;
+    }
+
+    .payroll-scroll-text h3 {
+        font-size: 24px;
+    }
+
+    .payroll-scroll-text p {
+        font-size: 15px;
+    }
+
+    .payroll-sticky-image {
+        top: 110px;
+        height: calc(100vh - 140px);
+    }
+
+    .payroll-sticky-image img {
+        max-width: 360px;
+        max-height: 360px;
+    }
+
+    .payroll-features-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+/* =========================================
+   MOBILE IMAGE - DESKTOP HIDE
+========================================= */
+
+.payroll-mobile-image {
+    display: none;
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+    .payroll-choose-section {
+        padding: 45px 0 30px;
+    }
+
+    .payroll-choose-container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 18px;
+    }
+
+    .payroll-choose-heading {
+        margin-bottom: 45px;
+        text-align: center;
+    }
+
+    .payroll-choose-heading h2 {
+        font-size: 25px;
+        line-height: 1.4;
+    }
+
+    .payroll-scroll-layout {
+        display: block;
+    }
+
+    .payroll-scroll-content {
+        width: 100%;
+    }
+
+    .payroll-scroll-item {
+        width: 100%;
+        min-height: auto;
+        margin-bottom: 65px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        opacity: 1;
+        transform: none;
+    }
+
+    .payroll-scroll-text {
+        width: 100%;
+        max-width: 500px;
+        text-align: left;
+    }
+
+    .payroll-scroll-text h3 {
+        margin: 0 0 12px;
+        font-size: 22px;
+        line-height: 1.35;
+    }
+
+    .payroll-scroll-text p {
+        margin: 0;
+        color: #344054;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .payroll-mobile-image {
+        width: 100%;
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .payroll-mobile-image img {
+        display: block;
+        width: 100%;
+        max-width: 320px;
+        height: 260px;
+        object-fit: contain;
+    }
+
+    .payroll-sticky-column {
+        display: none;
+    }
+
+    .payroll-features-highlight {
+        padding: 40px 0 30px;
+    }
+
+    .payroll-features-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        padding: 0 18px;
+    }
+
+    .payroll-feature-card {
+        padding: 22px 20px;
+    }
+
+    .payroll-feature-icon {
+        font-size: 32px;
+    }
+}
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+    .payroll-choose-section {
+        padding-top: 35px;
+    }
+
+    .payroll-choose-container {
+        padding: 0 15px;
+    }
+
+    .payroll-choose-heading {
+        margin-bottom: 35px;
+    }
+
+    .payroll-choose-heading h2 {
+        font-size: 22px;
+    }
+
+    .payroll-scroll-item {
+        margin-bottom: 55px;
+    }
+
+    .payroll-scroll-text h3 {
+        font-size: 20px;
+    }
+
+    .payroll-scroll-text p {
+        font-size: 13px;
+        line-height: 1.65;
+    }
+
+    .payroll-mobile-image {
+        margin-top: 20px;
+    }
+
+    .payroll-mobile-image img {
+        max-width: 280px;
+        height: 220px;
+    }
+
+    .payroll-feature-card h4 {
+        font-size: 16px;
+    }
+
+    .payroll-feature-card p {
+        font-size: 13px;
+    }
+}

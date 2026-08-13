@@ -1,0 +1,2463 @@
+/* =====================================
+   MOBILE ATTENDANCE HERO
+===================================== */
+
+.mobileattendance-hero {
+  width: 100%;
+  background: #1c3558;
+  color: #ffffff;
+
+  padding: 100px 0 45px;
+}
+
+.mobileattendance-container {
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+/* ROW */
+
+.mobileattendance-box {
+  min-height: 430px;
+
+  /* Bootstrap row handle pannum */
+  display: flex;
+  align-items: center;
+
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+/* LEFT CONTENT */
+
+.mobileattendance-left {
+  padding: 20px 30px;
+}
+
+.mobileattendance-tag {
+  display: inline-block;
+
+  margin-bottom: 16px;
+  padding: 7px 16px;
+
+  color: #009bea;
+
+  border: 1px solid #315887;
+  border-radius: 30px;
+
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.mobileattendance-title {
+  width: 100%;
+  max-width: 500px;
+
+  margin: 0 0 25px;
+
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+/* LIST */
+
+.mobileattendance-list {
+  margin: 0 0 28px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.mobileattendance-list li {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+
+  margin-bottom: 14px;
+
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.mobileattendance-list li svg {
+  flex-shrink: 0;
+
+  color: #009bea;
+
+  font-size: 14px;
+}
+
+/* BUTTON */
+
+.mobileattendance-demo-btn {
+  padding: 13px 30px;
+
+  color: #073eff;
+  background: #ffffff;
+
+  border: none;
+  border-radius: 12px;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.mobileattendance-demo-btn:hover {
+  transform: translateY(-3px);
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* RIGHT IMAGE */
+
+.mobileattendance-hero-image {
+  width: 100%;
+  min-height: 360px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+}
+
+.mobileattendance-hero-image img {
+  display: block;
+
+  width: 100%;
+  max-width: 380px;
+  height: 290px;
+
+  object-fit: cover;
+
+  border-radius: 0;
+}
+
+
+/* =====================================
+   TABLET
+===================================== */
+
+@media (max-width: 991px) {
+
+  .mobileattendance-hero {
+    padding: 70px 0 45px;
+  }
+
+  .mobileattendance-container {
+    max-width: 750px;
+
+    padding: 0 25px;
+  }
+
+  .mobileattendance-box {
+    min-height: auto;
+  }
+
+  .mobileattendance-left {
+    padding: 25px 20px;
+
+    text-align: center;
+  }
+
+  .mobileattendance-tag {
+    font-size: 11px;
+  }
+
+  .mobileattendance-title {
+    max-width: 520px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 27px;
+  }
+
+  .mobileattendance-list {
+    width: 100%;
+    max-width: 420px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: left;
+  }
+
+  .mobileattendance-hero-image {
+    min-height: auto;
+
+    margin-top: 20px;
+  }
+
+  .mobileattendance-hero-image img {
+    max-width: 370px;
+    height: 250px;
+  }
+}
+
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media (max-width: 767px) {
+
+  .mobileattendance-container {
+    padding: 0 18px;
+
+  }
+
+  .mobileattendance-left {
+    padding: 20px 5px;
+  }
+
+  .mobileattendance-tag {
+    padding: 6px 13px;
+
+    font-size: 10px;
+  }
+
+  .mobileattendance-title {
+    max-width: 350px;
+
+    margin-bottom: 22px;
+
+    font-size: 23px;
+    line-height: 1.4;
+  }
+
+  .mobileattendance-list {
+    max-width: 330px;
+
+    margin-bottom: 25px;
+  }
+
+  .mobileattendance-list li {
+    gap: 10px;
+
+    margin-bottom: 12px;
+
+    font-size: 13px;
+  }
+
+  .mobileattendance-list li svg {
+    font-size: 13px;
+  }
+
+  .mobileattendance-demo-btn {
+    padding: 12px 27px;
+
+    font-size: 13px;
+  }
+
+  .mobileattendance-hero-image {
+    padding: 15px 0;
+
+    margin-top: 15px;
+  }
+
+  .mobileattendance-hero-image img {
+    width: 100%;
+    max-width: 330px;
+    height: 220px;
+
+    object-fit: cover;
+  }
+}
+
+
+/* =====================================
+   SMALL MOBILE
+===================================== */
+
+@media (max-width: 480px) {
+
+  .mobileattendance-hero {
+    padding-top: 60px;
+  }
+
+  .mobileattendance-title {
+    max-width: 310px;
+
+    font-size: 21px;
+  }
+
+  .mobileattendance-list {
+    max-width: 300px;
+  }
+
+  .mobileattendance-list li {
+    font-size: 12px;
+  }
+
+  .mobileattendance-hero-image img {
+    max-width: 300px;
+    height: 225px;
+  }
+}
+
+
+
+
+
+/* ---------- VIDEO ---------- */
+.mobileattendance-video-section {
+  position: relative;
+  height: 300px;
+  padding-top: 30px;
+  color: #ffffff;
+  background: #1c3558;
+
+
+
+}
+
+.mobileattendance-video-section .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.mobileattendance-video-title {
+  margin: 0 0 25px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.mobileattendance-video-box {
+  position: relative;
+  width: 100%;
+  max-width: 550px;
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #000000;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  z-index: 2;
+}
+
+.mobileattendance-video-box iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+}
+
+/* ---------- STATS ---------- */
+.mobileattendance-stats-section {
+  padding: 160px 0 70px;
+  background: #ffffff;
+}
+
+.mobileattendance-stats {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.mobileattendance-stat-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.mobileattendance-stat-icon {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #0a94dd;
+  background: #eef8ff;
+  border-radius: 18px;
+  font-size: 28px;
+}
+
+.mobileattendance-stat-item h3 {
+  margin: 0 0 4px;
+  color: #172b4d;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.mobileattendance-stat-item p {
+  margin: 0;
+  color: #666666;
+  font-size: 17px;
+}
+
+/* ---------- CASE STUDY ---------- */
+.mobileattendance-case-section {
+  padding: 50px 0 65px;
+  background: #ffffff;
+}
+
+.mobileattendance-case-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.mobileattendance-case-heading {
+  margin-bottom: 40px;
+}
+
+.mobileattendance-case-heading h2 {
+  max-width: 850px;
+  margin: 0 0 12px;
+  color: #000000;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.mobileattendance-case-heading p {
+  margin: 0;
+  color: #111111;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.mobileattendance-case-row {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  /* gap: 10px; */
+}
+
+.mobileattendance-case-content {
+  max-width: 650px;
+}
+
+.mobileattendance-numbers {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 30px;
+}
+
+.mobileattendance-numbers h3 {
+  margin: 0 0 5px;
+  color: #1e3a2f;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.mobileattendance-numbers p {
+  margin: 0;
+  color: #333333;
+  font-size: 14px;
+}
+
+.mobileattendance-description {
+  max-width: 650px;
+  margin: 0 0 8px;
+  color: #26354d;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.mobileattendance-case-link {
+  display: inline-block;
+  margin-bottom: 22px;
+  color: #f5b342;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.mobileattendance-case-link:hover {
+  text-decoration: underline;
+  color: #e6a63a;
+}
+
+.mobileattendance-quote {
+  position: relative;
+  max-width: 650px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.mobileattendance-quote .quote-icon {
+  flex-shrink: 0;
+  color: #b9c8ff;
+  font-size: 28px;
+}
+
+.mobileattendance-quote p {
+  margin: 0;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.mobileattendance-user {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.mobileattendance-user img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.mobileattendance-user div {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.mobileattendance-user h4 {
+  margin: 0;
+  color: #222222;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.mobileattendance-user p {
+  margin: 0;
+  color: #4d5666;
+  font-size: 13px;
+}
+
+.mobileattendance-case-image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobileattendance-case-image img {
+  width: 100%;
+  max-width: 380px;
+  display: block;
+  object-fit: contain;
+}
+
+/* ---------- FEATURES ---------- */
+.mobileattendance-features-section {
+  background: #dbe7f5;
+  /* padding: 80px 0; */
+}
+
+.mobileattendance-features-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 35px;
+}
+
+.mobileattendance-feature-row {
+  width: 100%;
+  min-height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  /* margin-bottom: 70px; */
+}
+
+.mobileattendance-feature-row:last-child {
+  margin-bottom: 0;
+}
+
+.mobileattendance-feature-reverse {
+  flex-direction: row-reverse;
+}
+
+.mobileattendance-feature-content {
+  width: 50%;
+  max-width: 500px;
+}
+
+.mobileattendance-feature-tag {
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 7px 15px;
+  color: #1e3a2f;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.mobileattendance-feature-content h2 {
+  max-width: 500px;
+  margin: 0 0 18px;
+  color: #000000;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.mobileattendance-feature-description {
+  max-width: 500px;
+  margin: 0 0 28px;
+  color: #34445b;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.mobileattendance-faq-wrapper {
+  width: 100%;
+}
+
+.mobileattendance-faq-wrapper h4 {
+  margin: 0 0 5px;
+  color: #25334a;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.mobileattendance-faq-item {
+  width: 100%;
+  border-bottom: 1px solid rgba(30, 58, 47, 0.1);
+}
+
+.mobileattendance-faq-question {
+  width: 100%;
+  padding: 14px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  color: #000000;
+  background: transparent;
+  border: none;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.mobileattendance-faq-question svg {
+  flex-shrink: 0;
+  color: #6e7b8d;
+  font-size: 11px;
+}
+
+.mobileattendance-faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.35s ease, opacity 0.3s ease, padding 0.35s ease;
+}
+
+.mobileattendance-faq-answer.show {
+  max-height: 150px;
+  opacity: 1;
+  padding-bottom: 14px;
+}
+
+.mobileattendance-faq-answer p {
+  max-width: 440px;
+  margin: 0;
+  color: #536177;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.mobileattendance-feature-image {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobileattendance-feature-image img {
+  display: block;
+  width: 100%;
+  max-width: 430px;
+  max-height: 380px;
+  object-fit: contain;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+/* Tablet */
+@media (max-width: 991px) {
+  .mobileattendance-container {
+    max-width: 750px;
+    padding: 25px;
+  }
+
+  .mobileattendance-box {
+    min-height: auto;
+  }
+
+  .mobileattendance-left {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mobileattendance-list {
+    width: 100%;
+    max-width: 420px;
+    text-align: left;
+  }
+
+  .mobileattendance-hero-image {
+    margin-top: 40px;
+  }
+
+  .mobileattendance-hero-image img {
+    max-width: 350px;
+  }
+
+  .mobileattendance-video-section {
+    height: 270px;
+    padding-top: 28px;
+  }
+
+  .mobileattendance-video-title {
+    font-size: 24px;
+  }
+
+  .mobileattendance-video-box {
+    max-width: 500px;
+    border-radius: 22px;
+  }
+
+  .mobileattendance-stats-section {
+    padding: 130px 25px 60px;
+  }
+
+  .mobileattendance-stats {
+    max-width: 700px;
+    gap: 20px;
+  }
+
+  .mobileattendance-stat-item {
+    gap: 14px;
+  }
+
+  .mobileattendance-stat-icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 15px;
+    font-size: 23px;
+  }
+
+  .mobileattendance-stat-item h3 {
+    font-size: 26px;
+  }
+
+  .mobileattendance-stat-item p {
+    font-size: 15px;
+  }
+
+  .mobileattendance-case-section .container {
+    max-width: 760px;
+    padding: 0 25px;
+  }
+
+  .mobileattendance-case-heading h2 {
+    font-size: 29px;
+  }
+
+  .mobileattendance-case-row {
+    min-height: auto;
+  }
+
+  .mobileattendance-case-content {
+    max-width: 100%;
+  }
+
+  .mobileattendance-case-image {
+    margin-top: 40px;
+  }
+
+  .mobileattendance-case-image img {
+    max-width: 350px;
+  }
+
+  .mobileattendance-features-section {
+    padding: 65px 0;
+  }
+
+  .mobileattendance-features-container {
+    max-width: 760px;
+    padding: 0 30px;
+  }
+
+  .mobileattendance-feature-row,
+  .mobileattendance-feature-reverse {
+    min-height: auto;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 90px;
+  }
+
+  .mobileattendance-feature-content,
+  .mobileattendance-feature-image {
+    width: 100%;
+  }
+
+  .mobileattendance-feature-content {
+    max-width: 620px;
+  }
+
+  .mobileattendance-feature-image {
+    order: 2;
+  }
+
+  .mobileattendance-feature-content {
+    order: 1;
+  }
+
+  .mobileattendance-feature-content h2 {
+    font-size: 30px;
+  }
+
+  .mobileattendance-feature-image img {
+    max-width: 400px;
+    max-height: 350px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .mobileattendance-hero {
+    padding-top: 70px;
+    padding-bottom: 35px;
+  }
+
+  .mobileattendance-container {
+    padding: 20px;
+  }
+
+  .mobileattendance-left {
+    padding: 10px;
+  }
+
+  .mobileattendance-tag {
+    padding: 7px 14px;
+    font-size: 11px;
+  }
+
+  .mobileattendance-title {
+    font-size: 25px;
+  }
+
+  .mobileattendance-list {
+    max-width: 350px;
+  }
+
+  .mobileattendance-list li {
+    font-size: 14px;
+  }
+
+  .mobileattendance-demo-btn {
+    padding: 12px 27px;
+    font-size: 14px;
+  }
+
+  .mobileattendance-hero-image {
+    margin-top: 30px;
+  }
+
+  .mobileattendance-hero-image img {
+    max-width: 300px;
+  }
+
+  .mobileattendance-video-section {
+    height: 220px;
+    padding-top: 25px;
+  }
+
+  .mobileattendance-video-section .container {
+    padding: 0 18px;
+  }
+
+  .mobileattendance-video-title {
+    max-width: 320px;
+    margin: 0 auto 22px;
+    font-size: 21px;
+  }
+
+  .mobileattendance-video-box {
+    max-width: 420px;
+    border-radius: 18px;
+  }
+
+  .mobileattendance-stats-section {
+    padding: 55px 20px 45px;
+  }
+
+  .mobileattendance-stats {
+    max-width: 220px;
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .mobileattendance-stat-item {
+    justify-content: flex-start;
+    gap: 15px;
+  }
+
+  .mobileattendance-stat-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 13px;
+    font-size: 19px;
+  }
+
+  .mobileattendance-stat-item h3 {
+    font-size: 22px;
+  }
+
+  .mobileattendance-stat-item p {
+    font-size: 13px;
+  }
+
+  .mobileattendance-case-section {
+    padding: 40px 0 50px;
+  }
+
+  .mobileattendance-case-section .container {
+    max-width: 520px;
+    padding: 0 20px;
+  }
+
+  .mobileattendance-case-heading h2 {
+    font-size: 25px;
+  }
+
+  .mobileattendance-case-heading p {
+    font-size: 14px;
+  }
+
+  .mobileattendance-numbers {
+    gap: 45px;
+  }
+
+  .mobileattendance-numbers h3 {
+    font-size: 25px;
+  }
+
+  .mobileattendance-description {
+    font-size: 14px;
+  }
+
+  .mobileattendance-case-link {
+    font-size: 13px;
+  }
+
+  .mobileattendance-quote .quote-icon {
+    font-size: 24px;
+  }
+
+  .mobileattendance-quote p {
+    font-size: 14px;
+  }
+
+  .mobileattendance-user div {
+    display: block;
+  }
+
+  .mobileattendance-case-image img {
+    max-width: 300px;
+  }
+
+  .mobileattendance-features-section {
+    padding: 50px 0;
+  }
+
+  .mobileattendance-features-container {
+    max-width: 520px;
+    padding: 0 20px;
+  }
+
+  .mobileattendance-feature-row,
+  .mobileattendance-feature-reverse {
+    gap: 30px;
+    margin-bottom: 75px;
+  }
+
+  .mobileattendance-feature-tag {
+    font-size: 10px;
+  }
+
+  .mobileattendance-feature-content h2 {
+    font-size: 26px;
+  }
+
+  .mobileattendance-feature-description {
+    font-size: 14px;
+  }
+
+  .mobileattendance-faq-question {
+    font-size: 13px;
+  }
+
+  .mobileattendance-faq-answer p {
+    font-size: 12px;
+  }
+
+  .mobileattendance-feature-image img {
+    max-width: 330px;
+    max-height: 290px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .mobileattendance-video-section {
+    height: 190px;
+    padding-top: 22px;
+  }
+
+  .mobileattendance-video-title {
+    max-width: 280px;
+    font-size: 18px;
+  }
+
+  .mobileattendance-video-box {
+    border-radius: 16px;
+  }
+
+  .mobileattendance-stats-section {
+    padding: 120px 15px 40px;
+  }
+
+  .mobileattendance-stats {
+    max-width: 250px;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .mobileattendance-features-container {
+    padding: 0 17px;
+  }
+
+  .mobileattendance-feature-row,
+  .mobileattendance-feature-reverse {
+    margin-bottom: 65px;
+  }
+
+  .mobileattendance-feature-content h2 {
+    font-size: 23px;
+  }
+
+  .mobileattendance-feature-description {
+    font-size: 13px;
+  }
+
+  .mobileattendance-faq-question {
+    font-size: 12px;
+  }
+
+  .mobileattendance-feature-image img {
+    max-width: 290px;
+    max-height: 260px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------- */
+
+
+/* =========================================
+   ATTENDANCE OVERVIEW SECTION
+========================================= */
+
+.attendance-overview-section {
+    width: 100%;
+
+    padding: 30px 0 0;
+
+    background: #ffffff;
+}
+
+.attendance-overview-container {
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+
+
+/* =========================================
+   STICKY TAB AREA
+========================================= */
+
+.attendance-tab-sticky {
+    position: sticky;
+    top: 90px;
+    z-index: 950;
+    width: 100%;
+    padding: 10px 0;
+    /* background: rgba(255, 255, 255, 0.96); */
+  
+}
+
+
+/* =========================================
+   TAB WRAPPER
+========================================= */
+
+.attendance-tab-wrapper {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+
+    padding: 0 15px;
+}
+
+
+/* =========================================
+   TAB NAVBAR
+========================================= */
+
+.attendance-tab-navbar {
+    width: 100%;
+    max-width: 720px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    padding: 5px;
+
+    background: linear-gradient(90deg,
+            #172f50 0%,
+            #365f9c 100%);
+
+    border-radius: 50px;
+
+    box-shadow: 0 8px 25px rgba(23, 47, 80, 0.15);
+}
+
+
+/* =========================================
+   TAB BUTTON
+========================================= */
+
+.attendance-tab-btn {
+    width: 100%;
+
+    padding: 12px 15px;
+
+    color: #ffffff;
+    background: transparent;
+
+    border: none;
+    border-radius: 40px;
+
+    font-size: 15px;
+    font-weight: 500;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.attendance-tab-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.attendance-tab-btn.active {
+    color: #ffffff;
+
+    background: rgba(255, 255, 255, 0.15);
+
+    font-weight: 700;
+}
+
+
+/* =========================================
+   SCROLL OFFSET
+========================================= */
+
+#overview,
+#benefits,
+#features,
+#integration {
+    scroll-margin-top: 155px;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    .attendance-tab-sticky {
+        top: 65px;
+
+        padding: 8px 0;
+    }
+
+    .attendance-tab-navbar {
+        max-width: 620px;
+    }
+
+    .attendance-tab-btn {
+        padding: 11px 12px;
+
+        font-size: 14px;
+    }
+
+    #overview,
+    #benefits,
+    #features,
+    #integration {
+        scroll-margin-top: 140px;
+    }
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .attendance-tab-sticky {
+        top: 58px;
+
+        padding: 7px 0;
+
+        background: rgba(255, 255, 255, 0.98);
+    }
+
+    .attendance-tab-wrapper {
+        padding: 0 8px;
+
+        overflow: visible;
+    }
+
+    .attendance-tab-navbar {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+
+        padding: 4px;
+
+        border-radius: 30px;
+    }
+
+    .attendance-tab-btn {
+        min-width: 0;
+
+        padding: 10px 3px;
+
+        font-size: 11px;
+
+        white-space: nowrap;
+    }
+
+    #overview,
+    #benefits,
+    #features,
+    #integration {
+        scroll-margin-top: 125px;
+    }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 400px) {
+
+    .attendance-tab-sticky {
+        top: 90px;
+    }
+
+    .attendance-tab-wrapper {
+        padding: 0 5px;
+    }
+
+    .attendance-tab-btn {
+        padding: 9px 1px;
+
+        font-size: 10px;
+    }
+}
+
+
+
+
+/* =========================================
+   CONTENT
+========================================= */
+
+.attendance-overview-content {
+    text-align: center;
+}
+
+.attendance-small-title {
+    display: inline-block;
+
+    margin-bottom: 25px;
+
+    color: #0789ed;
+
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.attendance-overview-content h2 {
+    margin: 0 auto 25px;
+
+    color: #000000;
+
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.attendance-overview-content p {
+    max-width: 900px;
+
+    margin: 0 auto 45px;
+
+    color: #344054;
+
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+/* =========================================
+   IMAGE
+========================================= */
+
+.attendance-overview-image {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.attendance-overview-image img {
+    display: block;
+
+    width: 100%;
+    max-width: 760px;
+    height: 450px;
+
+    object-fit: contain;
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+    .attendance-overview-section {
+        padding-top: 25px;
+    }
+
+    .attendance-overview-container {
+        max-width: 750px;
+
+        padding: 0 20px;
+    }
+
+    .attendance-tab-navbar {
+        max-width: 620px;
+    }
+
+    .attendance-tab-btn {
+        padding: 12px 15px;
+
+        font-size: 14px;
+    }
+
+    .attendance-overview-content h2 {
+        font-size: 32px;
+    }
+
+    .attendance-overview-content p {
+        max-width: 650px;
+
+        font-size: 16px;
+    }
+
+    .attendance-overview-image img {
+        max-width: 600px;
+        height: 380px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .attendance-tab-wrapper {
+        position: sticky;
+        top: 60px;
+        /* MOBILE MAIN NAVBAR HEIGHT */
+        z-index: 900;
+
+        margin-bottom: 22px;
+
+        padding: 7px 10px;
+
+        overflow-x: auto;
+
+        justify-content: flex-start;
+
+        background: #ffffff;
+
+        scrollbar-width: none;
+    }
+
+    .attendance-tab-wrapper::-webkit-scrollbar {
+        display: none;
+    }
+
+    .attendance-tab-navbar {
+        min-width: 500px;
+
+        grid-template-columns: repeat(4, 1fr);
+
+        border-radius: 35px;
+    }
+
+    .attendance-tab-btn {
+        padding: 11px 15px;
+
+        font-size: 13px;
+    }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+    .attendance-overview-container {
+        padding: 0 12px;
+    }
+
+    .attendance-tab-navbar {
+        min-width: 350px;
+    }
+
+    .attendance-tab-btn {
+        padding: 10px 12px;
+
+        font-size: 12px;
+    }
+
+    .attendance-overview-content h2 {
+        max-width: 320px;
+
+        font-size: 22px;
+    }
+
+    .attendance-overview-content p {
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+/* =========================================
+   BENEFITS SECTION
+========================================= */
+
+.facerecognition-benefits-section {
+    width: 100%;
+
+    padding: 10px 0 80px !important;
+
+    background: #ffffff;
+}
+
+.facerecognition-benefits-container {
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    padding: 0 20px;
+}
+
+
+/* =========================================
+   HEADING
+========================================= */
+
+.facerecognition-benefits-heading {
+    margin-bottom: 35px;
+
+    text-align: center;
+}
+
+.facerecognition-benefits-heading span {
+    display: inline-block;
+
+    margin-bottom: 12px;
+
+    color: #0789ed;
+
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.facerecognition-benefits-heading h2 {
+    margin: 0;
+
+    color: #000000;
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+
+/* =========================================
+   BENEFITS GRID
+========================================= */
+
+.facerecognition-benefits-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 14px;
+}
+
+
+/* =========================================
+   CARD
+========================================= */
+
+.facerecognition-benefit-card {
+    min-height: 220px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 30px 25px;
+
+    text-align: center;
+
+    background: #eef3f8;
+
+    border-radius: 15px;
+
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+.facerecognition-benefit-card:hover {
+    transform: translateY(-7px);
+
+    box-shadow: 0 15px 35px rgba(25, 55, 95, 0.12);
+}
+
+
+/* =========================================
+   CARD SIZES
+========================================= */
+
+.facerecognition-benefit-card.benefit-large {
+    grid-column: span 2;
+}
+
+.facerecognition-benefit-card.benefit-small {
+    grid-column: span 1;
+}
+
+.facerecognition-benefit-card.benefit-wide {
+    grid-column: span 2;
+}
+
+
+/* =========================================
+   ICON
+========================================= */
+
+.facerecognition-benefit-icon {
+    width: 46px;
+    height: 46px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 18px;
+
+    color: #6f88ad;
+
+    background: #ffffff;
+
+    border-radius: 50%;
+
+    font-size: 21px;
+}
+
+
+/* =========================================
+   TITLE
+========================================= */
+
+.facerecognition-benefit-card h3 {
+    margin: 0 0 10px;
+
+    color: #000000;
+
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+/* =========================================
+   DESCRIPTION
+========================================= */
+
+.facerecognition-benefit-card p {
+    max-width: 390px;
+
+    margin: 0;
+
+    color: #44546a;
+
+    font-size: 11px;
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    .facerecognition-benefits-section {
+        padding: 60px 0;
+    }
+
+    .facerecognition-benefits-container {
+        max-width: 720px;
+    }
+
+    .facerecognition-benefits-grid {
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 15px;
+    }
+
+    .facerecognition-benefit-card.benefit-large,
+    .facerecognition-benefit-card.benefit-small,
+    .facerecognition-benefit-card.benefit-wide {
+        grid-column: span 1;
+    }
+
+    .facerecognition-benefit-card:last-child {
+        grid-column: span 2;
+    }
+
+    .facerecognition-benefit-card {
+        min-height: 210px;
+    }
+
+    .facerecognition-benefits-heading h2 {
+        font-size: 26px;
+    }
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .facerecognition-benefits-section {
+        padding: 50px 0;
+    }
+
+    .facerecognition-benefits-container {
+        padding: 0 18px;
+    }
+
+    .facerecognition-benefits-heading {
+        margin-bottom: 28px;
+    }
+
+    .facerecognition-benefits-heading span {
+        margin-bottom: 8px;
+
+        font-size: 11px;
+    }
+
+    .facerecognition-benefits-heading h2 {
+        font-size: 23px;
+        line-height: 1.4;
+    }
+
+    .facerecognition-benefits-grid {
+        width: 100%;
+        max-width: 360px;
+
+        margin: 0 auto;
+
+        grid-template-columns: 1fr;
+
+        gap: 14px;
+    }
+
+    .facerecognition-benefit-card.benefit-large,
+    .facerecognition-benefit-card.benefit-small,
+    .facerecognition-benefit-card.benefit-wide,
+    .facerecognition-benefit-card:last-child {
+        grid-column: span 1;
+    }
+
+    .facerecognition-benefit-card {
+        width: 100%;
+
+        min-height: 180px;
+
+        padding: 25px 20px;
+
+        border-radius: 14px;
+    }
+
+    .facerecognition-benefit-icon {
+        width: 43px;
+        height: 43px;
+
+        margin-bottom: 15px;
+
+        font-size: 19px;
+    }
+
+    .facerecognition-benefit-card h3 {
+        margin-bottom: 8px;
+
+        font-size: 14px;
+    }
+
+    .facerecognition-benefit-card p {
+        max-width: 290px;
+
+        font-size: 12px;
+        line-height: 1.7;
+    }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+
+    .facerecognition-benefits-section {
+        padding: 40px 0;
+    }
+
+    .facerecognition-benefits-container {
+        padding: 0 15px;
+    }
+
+    .facerecognition-benefits-heading h2 {
+        font-size: 21px;
+    }
+
+    .facerecognition-benefits-grid {
+        max-width: 320px;
+    }
+
+    .facerecognition-benefit-card {
+        min-height: 170px;
+
+        padding: 22px 18px;
+    }
+
+    .facerecognition-benefit-card h3 {
+        font-size: 13px;
+    }
+
+    .facerecognition-benefit-card p {
+        font-size: 11px;
+    }
+}
+
+
+
+
+
+
+
+/* mobilesolutions */
+
+
+/* =========================================
+   MOBILE SOLUTIONS SECTION
+========================================= */
+
+.mobilesolutions-section {
+  width: 100%;
+}
+
+.mobilesolutions-wrapper {
+  background: #dbe2ee;
+  border-radius: 30px;
+  padding: 30px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 35px;
+  align-items: start;
+}
+
+/* =========================================
+   LEFT CONTENT
+========================================= */
+
+.mobilesolutions-left h2 {
+  margin: 0;
+
+  color: #000;
+
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+/* =========================================
+   GRID
+========================================= */
+
+.mobilesolutions-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+/* =========================================
+   CARD
+========================================= */
+
+.mobilesolutions-card {
+  min-height: 80px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 15px 20px;
+
+  background: #fff;
+  border-radius: 22px;
+
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.mobilesolutions-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================================
+   ICON
+========================================= */
+
+.mobilesolutions-icon {
+  width: 60px;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #8b9bbc;
+  font-size: 38px;
+
+  flex-shrink: 0;
+}
+
+/* =========================================
+   TITLE
+========================================= */
+
+.mobilesolutions-card span {
+  color: #000;
+
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+  .mobilesolutions-wrapper {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 35px 25px;
+  }
+
+  .mobilesolutions-left {
+    text-align: center;
+  }
+
+  .mobilesolutions-left h2 {
+    font-size: 34px;
+  }
+
+  .mobilesolutions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .mobilesolutions-card {
+    min-height: 130px;
+    padding: 30px 22px;
+  }
+
+  .mobilesolutions-card span {
+    font-size: 18px;
+  }
+
+  .mobilesolutions-icon {
+    font-size: 32px;
+  }
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+  .mobilesolutions-section {
+    padding: 50px 0;
+  }
+
+  .mobilesolutions-wrapper {
+    padding: 25px 18px;
+    border-radius: 22px;
+  }
+
+  .mobilesolutions-left h2 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .mobilesolutions-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .mobilesolutions-card {
+    min-height: auto;
+    padding: 22px 18px;
+    border-radius: 18px;
+  }
+
+  .mobilesolutions-icon {
+    width: 45px;
+    height: 45px;
+    font-size: 28px;
+  }
+
+  .mobilesolutions-card span {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+  .mobilesolutions-section {
+    padding: 40px 0;
+  }
+
+  .mobilesolutions-wrapper {
+    padding: 20px 15px;
+  }
+
+  .mobilesolutions-left h2 {
+    font-size: 24px;
+  }
+
+  .mobilesolutions-card {
+    padding: 18px 15px;
+    gap: 15px;
+  }
+
+  .mobilesolutions-icon {
+    font-size: 24px;
+  }
+
+  .mobilesolutions-card span {
+    font-size: 15px;
+  }
+}
+
+
+
+
+
+
+
+/* =========================================
+   MOBILE ATTENDANCE PROBLEM SECTION
+========================================= */
+
+.mobile-problem-section {
+    padding: 70px 0;
+    background: #dce7f5;
+}
+
+.mobile-problem-container {
+    max-width: 1080px;
+}
+
+.mobile-problem-heading {
+    margin-bottom: 50px;
+}
+
+.mobile-problem-heading span {
+    display: inline-block;
+    margin-bottom: 15px;
+
+    color: #0789ed;
+
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.mobile-problem-heading h2 {
+    margin: 0;
+
+    color: #000000;
+
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+/* GRID */
+
+.mobile-problem-grid {
+    display: grid;
+
+    grid-template-columns: 380px 1fr;
+
+    gap: 60px;
+
+    align-items: start;
+}
+
+
+/* TABS */
+
+.mobile-problem-tabs {
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+.mobile-problem-tab {
+    width: 100%;
+    min-height: 72px;
+
+    padding: 18px 28px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 18px;
+
+    color: #4b5565;
+    background: #ffffff;
+
+    border: none;
+    border-radius: 12px;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    text-align: left;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+
+    transition: 0.3s ease;
+}
+
+.mobile-problem-tab:hover {
+    transform: translateY(-2px);
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.mobile-problem-tab.active {
+    color: #ffffff;
+    background: #173de8;
+
+    box-shadow: 0 8px 20px rgba(23, 61, 232, 0.25);
+}
+
+.mobile-problem-tab-icon {
+    min-width: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 20px;
+}
+
+
+/* CONTENT */
+
+.mobile-problem-content {
+    min-width: 0;
+}
+
+.mobile-problem-content h3 {
+    margin: 15px 0;
+
+    color: #000000;
+
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.mobile-problem-description {
+    max-width: 650px;
+
+    margin: 0 0 30px;
+
+    color: #344054;
+
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+/* POINTS */
+
+.mobile-problem-points {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px 35px;
+
+    margin-bottom: 35px;
+}
+
+.mobile-problem-point {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+}
+
+.mobile-problem-point span {
+    display: flex;
+
+    color: #71839c;
+
+    font-size: 18px;
+}
+
+.mobile-problem-point p {
+    margin: 0;
+
+    color: #344054;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* IMAGE */
+
+.mobile-problem-image {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation: mobileProblemFade 0.45s ease;
+}
+
+.mobile-problem-image img {
+    display: block;
+
+    width: 100%;
+    max-width: 520px;
+    height: 270px;
+
+    object-fit: contain;
+}
+
+@keyframes mobileProblemFade {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    .mobile-problem-section {
+        padding: 60px 0;
+    }
+
+    .mobile-problem-container {
+        max-width: 750px;
+        padding: 0 20px;
+    }
+
+    .mobile-problem-heading {
+        margin-bottom: 40px;
+    }
+
+    .mobile-problem-heading h2 {
+        font-size: 32px;
+    }
+
+    .mobile-problem-grid {
+        grid-template-columns: 300px 1fr;
+
+        gap: 35px;
+    }
+
+    .mobile-problem-tab {
+        min-height: 65px;
+
+        padding: 15px 18px;
+
+        font-size: 14px;
+    }
+
+    .mobile-problem-content h3 {
+        font-size: 24px;
+    }
+
+    .mobile-problem-points {
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+    }
+
+    .mobile-problem-image img {
+        height: 230px;
+    }
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .mobile-problem-section {
+        padding: 50px 0;
+    }
+
+    .mobile-problem-container {
+        padding: 0 15px;
+    }
+
+    .mobile-problem-heading {
+        margin-bottom: 30px;
+
+        text-align: center;
+    }
+
+    .mobile-problem-heading span {
+        margin-bottom: 10px;
+
+        font-size: 13px;
+    }
+
+    .mobile-problem-heading h2 {
+        font-size: 26px;
+
+        line-height: 1.4;
+    }
+
+
+    .mobile-problem-grid {
+        display: block;
+    }
+
+
+    /* HORIZONTAL MOBILE TABS */
+
+    .mobile-problem-tabs {
+        width: 100%;
+
+        margin-bottom: 30px;
+
+        display: flex;
+        flex-direction: row;
+
+        gap: 10px;
+
+        overflow-x: auto;
+
+        padding-bottom: 8px;
+
+        scrollbar-width: none;
+    }
+
+    .mobile-problem-tabs::-webkit-scrollbar {
+        display: none;
+    }
+
+    .mobile-problem-tab {
+        width: auto;
+        min-width: 220px;
+        min-height: 58px;
+
+        flex-shrink: 0;
+
+        padding: 13px 16px;
+
+        border-radius: 10px;
+
+        font-size: 13px;
+    }
+
+    .mobile-problem-tab-icon {
+        min-width: 20px;
+
+        font-size: 17px;
+    }
+
+
+    /* CONTENT */
+
+    .mobile-problem-content h3 {
+        margin-top: 0;
+
+        font-size: 23px;
+        line-height: 1.4;
+    }
+
+    .mobile-problem-description {
+        margin-bottom: 25px;
+
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .mobile-problem-points {
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+
+        margin-bottom: 25px;
+    }
+
+    .mobile-problem-point p {
+        font-size: 13px;
+    }
+
+    .mobile-problem-image img {
+        max-width: 100%;
+        height: auto;
+        max-height: 260px;
+    }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 400px) {
+
+    .mobile-problem-heading h2 {
+        font-size: 23px;
+    }
+
+    .mobile-problem-tab {
+        min-width: 200px;
+
+        font-size: 12px;
+    }
+
+    .mobile-problem-content h3 {
+        font-size: 21px;
+    }
+}

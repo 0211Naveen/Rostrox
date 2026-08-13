@@ -1,0 +1,380 @@
+
+
+
+/* =========================================
+   INTEGRATION SECTION
+========================================= */
+
+.facerecognition-integration-section {
+    width: 100%;
+    padding-top: 55px;
+    /* padding: 70px; */
+    background: #ffffff;
+}
+
+.facerecognition-integration-container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+
+
+
+/* =========================================
+   HEADING
+========================================= */
+
+.facerecognition-integration-heading {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.facerecognition-integration-heading h2 {
+    margin: 0;
+
+    color: #000000;
+
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.integration-arrow {
+    display: inline-block;
+
+    margin-left: 10px;
+
+    color: #0789ed;
+
+    font-size: 20px;
+
+    transform: rotate(-5deg);
+}
+
+
+/* =========================================
+   TABS
+========================================= */
+
+.facerecognition-integration-tabs {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    margin-bottom: 55px;
+
+    overflow: hidden;
+
+    background: #e9ebf1;
+}
+
+.facerecognition-integration-tab {
+    position: relative;
+
+    min-height: 65px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    padding: 12px 25px;
+
+    color: #202020;
+    background: #e9ebf1;
+
+    border: none;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.facerecognition-integration-tab.active {
+    color: #ffffff;
+    background: #153df3;
+}
+
+
+/* ACTIVE ARROW */
+
+.facerecognition-integration-tab.active::after {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    right: -28px;
+
+    z-index: 5;
+
+    width: 0;
+    height: 0;
+
+    border-top: 32.5px solid transparent;
+    border-bottom: 32.5px solid transparent;
+    border-left: 28px solid #153df3;
+}
+
+
+/* TAB NUMBER */
+
+.integration-number {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+
+/* TAB TITLE */
+
+.integration-tab-title {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+/* =========================================
+   CONTENT
+========================================= */
+
+.facerecognition-integration-content {
+    min-height: 250px;
+}
+
+.facerecognition-integration-text {
+    max-width: 470px;
+}
+
+.facerecognition-integration-text h3 {
+    margin: 0 0 10px;
+
+    color: #111111;
+
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.facerecognition-integration-text p {
+    margin: 0;
+
+    color: #596273;
+
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   IMAGE
+========================================= */
+
+.facerecognition-integration-image {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facerecognition-integration-image img {
+    display: block;
+
+    width: 100%;
+    max-width: 330px;
+    height: 230px;
+
+    object-fit: contain;
+
+    transition:
+        opacity 0.3s ease,
+        transform 0.3s ease;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    .facerecognition-integration-section {
+        padding: 50px 0 60px;
+    }
+
+    .facerecognition-integration-container {
+        max-width: 750px;
+    }
+
+    .facerecognition-integration-heading h2 {
+        font-size: 27px;
+    }
+
+    .facerecognition-integration-tabs {
+        margin-bottom: 45px;
+    }
+
+    .integration-number {
+        font-size: 25px;
+    }
+
+    .integration-tab-title {
+        font-size: 12px;
+    }
+
+    .facerecognition-integration-content {
+        min-height: auto;
+    }
+
+    .facerecognition-integration-text {
+        max-width: 100%;
+
+        margin-bottom: 30px;
+
+        text-align: center;
+    }
+
+    .facerecognition-integration-image img {
+        max-width: 300px;
+        height: 210px;
+    }
+}
+
+
+/* =========================================
+   MOBILE INTEGRATION NAV - EXACT FIT
+========================================= */
+
+@media (max-width: 767px) {
+
+    .facerecognition-integration-container {
+        width: 100%;
+        padding: 0 12px;
+    }
+
+    .facerecognition-integration-tabs {
+        width: 100%;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        margin: 0 0 32px;
+
+        overflow: hidden;
+
+        background: #e9ebf1;
+
+        border-radius: 0;
+    }
+
+    .facerecognition-integration-tab {
+        width: 100%;
+        min-width: 0;
+        min-height: 55px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        gap: 5px;
+
+        padding: 8px 5px;
+
+        border: none;
+
+        color: #202020;
+        background: #e9ebf1;
+
+        white-space: nowrap;
+
+        cursor: pointer;
+    }
+
+    .facerecognition-integration-tab.active {
+        color: #ffffff;
+        background: #153df3;
+    }
+
+    /* REMOVE DESKTOP ARROW */
+
+    .facerecognition-integration-tab.active::after {
+        display: none;
+    }
+
+    .integration-number {
+        flex-shrink: 0;
+
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 1;
+    }
+
+    .integration-tab-title {
+        font-size: 10px;
+        font-weight: 500;
+
+        white-space: nowrap;
+    }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+
+    .facerecognition-integration-container {
+        padding: 0 8px;
+    }
+
+    .facerecognition-integration-tab {
+        min-height: 52px;
+
+        gap: 3px;
+
+        padding: 7px 2px;
+    }
+
+    .integration-number {
+        font-size: 18px;
+    }
+
+    .integration-tab-title {
+        font-size: 8.5px;
+    }
+}
+
+
+/* =========================================
+   VERY SMALL MOBILE
+========================================= */
+
+@media (max-width: 360px) {
+
+    .facerecognition-integration-container {
+        padding: 0 5px;
+    }
+
+    .facerecognition-integration-tab {
+        min-height: 50px;
+
+        flex-direction: column;
+
+        gap: 2px;
+
+        padding: 5px 2px;
+    }
+
+    .integration-number {
+        font-size: 17px;
+    }
+
+    .integration-tab-title {
+        font-size: 8px;
+    }
+}

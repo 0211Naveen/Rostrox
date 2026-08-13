@@ -1,0 +1,839 @@
+.hero-section {
+  background: #f7f7f7;
+  /* min-height: 100vh; */
+  padding: 150px 0 60px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #000;
+  margin-bottom: 35px;
+}
+
+.blue-dot {
+  color: #1484e6;
+  font-size: 45px;
+}
+
+.hero-content p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555;
+  max-width: 700px;
+  margin-bottom: 45px;
+}
+
+.hero-btn {
+  background: #1d43f0;
+  color: #fff;
+  border: none;
+  padding: 18px 45px;
+  border-radius: 18px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background: #0d2ed6;
+  transform: translateY(-4px);
+}
+
+.hero-video {
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.15);
+}
+
+.hero-video video {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.brand-section {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.brand-section img {
+  height: 55px;
+  opacity: 0.7;
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+
+.brand-section img:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+}
+
+/* Responsive */
+
+@media (max-width: 991px) {
+
+  .hero-content h1 {
+    text-align: justify;
+    font-size: 2rem;
+    line-height: 1.1;
+    padding: 10px;
+  }
+
+  .hero-content p {
+    padding: 10px;
+    text-align: justify;
+  }
+
+  .hero-section {
+    padding-top: 60px;
+    text-align: center;
+  }
+
+  .hero-video {
+    margin-top: 50px;
+  }
+
+  .hero-video video {
+    height: 280px;
+  }
+
+  .brand-section {
+    justify-content: center;
+    margin-top: 60px;
+    gap: 30px;
+  }
+
+  .brand-section img {
+    height: 35px;
+  }
+}
+
+.hero-video {
+  aspect-ratio: 16 / 9;
+}
+
+.hero-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* ----------------------------------------------------------------- */
+
+
+
+
+.problem-section {
+  background: #f5f5f5;
+}
+
+.problem-title {
+ 
+  padding-top: 30px;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 60px;
+
+  background: linear-gradient(90deg,
+      #0027b2 0%,
+      #4967c2 40%,
+      #7f5cff 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.problem-wrapper {
+  border-radius: 35px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.problem-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-right: 10px;
+}
+
+/* .problem-item {
+  background: #fff;
+  border: 1px solid #2453ff;
+  padding: 20px;
+  border-radius: 18px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+} */
+
+.problem-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #fff;
+  border: 1px solid #2453ff;
+  padding: 22px 25px;
+  border-radius: 18px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.problem-icon {
+  font-size: 22px;
+  color: #2453ff;
+  flex-shrink: 0;
+}
+
+
+
+.problem-item.active .problem-icon,
+.problem-item:hover .problem-icon {
+  color: #fff;
+}
+
+/* .problem-item:hover,
+.problem-item.active {
+  background: #2453ff;
+  color: #fff;
+} */
+
+.problem-item:hover,
+.problem-item.active {
+  background: #2453ff;
+  color: #fff;
+  transform: translateX(10px);
+  box-shadow: 0 15px 35px rgba(36, 83, 255, 0.3);
+}
+
+
+
+.problem-icon {
+  transition: all 0.4s ease;
+}
+
+.problem-item:hover .problem-icon,
+.problem-item.active .problem-icon {
+  transform: scale(1.15) rotate(8deg);
+  color: #fff;
+}
+
+
+.problem-content {
+  background: #dfe5ef;
+  border-radius: 35px;
+  padding: 45px;
+  /* height: 100%; */
+}
+
+.problem-content h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.problem-content p {
+  padding: 10px;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.problem-image {
+  margin-top: 10px;
+  border-radius: 20px;
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+}
+
+
+
+@media (max-width: 991px) {
+  .problem-title {
+    font-size: 2rem;
+  }
+
+  .problem-content {
+    margin-top: 30px;
+    padding: 30px;
+  }
+
+  .problem-item {
+    font-size: 16px;
+    padding: 18px;
+  }
+
+  .problem-content h3 {
+    font-size: 1.5rem;
+  }
+
+  .problem-content p {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------- */
+
+
+
+.stats-section{
+  
+    padding:50px 0;
+  background: #f5f5f5;
+
+}
+
+.stat-item{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:25px;
+    margin-top: 30px;
+}
+
+.stat-icon{
+    font-size:30px;
+    color:#0b7bdc;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.stat-content h2{
+    font-size:30px;
+    font-weight:700;
+    color:#0b7bdc;
+    line-height:1;
+    margin:0;
+}
+
+.stat-content p{
+    margin:8px 0 0;
+    font-size:20px;
+    color:#333;
+    font-weight:800;
+    line-height:1.2;
+}
+
+@media(max-width:991px){
+
+.stat-item{
+    justify-content:flex-start;
+    margin-bottom:45px;
+}
+
+.stat-content h2{
+    font-size:42px;
+}
+
+.stat-content p{
+    font-size:24px;
+}
+
+.stat-icon{
+    font-size:48px;
+}
+
+}
+
+@media (max-width: 576px) {
+
+  .stats-section {
+    padding: 50px 20px;
+  }
+
+  .stats-item,
+  .stat-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 18px;
+    margin-bottom: 40px;
+  }
+
+  .stat-icon {
+    width: 55px;
+    min-width: 55px;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .stat-content {
+    text-align: left;
+  }
+
+  .stat-content h2 {
+    font-size: 34px;
+    margin: 0;
+    line-height: 1;
+  }
+
+  .stat-content p {
+    font-size: 20px;
+    margin: 6px 0 0;
+    line-height: 1.2;
+  }
+
+}
+
+
+
+
+
+
+
+/* =========================================
+   HOME PROBLEM & SOLUTION
+========================================= */
+
+.home-problem-section {
+    padding: 20px 0;
+    background: #dce7f5;
+}
+
+.home-problem-container {
+    max-width: 1080px;
+}
+
+.home-problem-heading {
+    margin-bottom: 20px;
+}
+
+.home-problem-heading span {
+    display: inline-block;
+    margin-bottom: 14px;
+
+    color: #0789ed;
+
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.home-problem-heading h2 {
+    margin: 0;
+
+    color: #000000;
+
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+/* GRID */
+
+.home-problem-grid {
+    display: grid;
+
+    grid-template-columns: 380px 1fr;
+
+    gap: 60px;
+
+    align-items: start;
+}
+
+
+/* TABS */
+
+.home-problem-tabs {
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+.home-problem-tab {
+    width: 100%;
+    /* min-height: 72px; */
+
+    padding: 18px 28px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 18px;
+
+    color: #4b5565;
+    background: #ffffff;
+
+    border: none;
+    border-radius: 12px;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    text-align: left;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+
+    transition: 0.3s ease;
+}
+
+.home-problem-tab:hover {
+    transform: translateY(-2px);
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.home-problem-tab.active {
+    color: #ffffff;
+
+    background: #173de8;
+
+    box-shadow: 0 8px 20px rgba(23, 61, 232, 0.25);
+}
+
+.home-problem-tab-icon {
+    min-width: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 19px;
+}
+
+
+/* RIGHT CONTENT */
+
+.home-problem-content {
+    min-width: 0;
+
+    animation: homeProblemFade 0.45s ease;
+}
+
+.home-problem-content h3 {
+    margin: 15px 0;
+
+    color: #000000;
+
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.home-problem-description {
+    max-width: 650px;
+
+    margin: 0 0 30px;
+
+    color: #344054;
+
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+/* POINTS */
+
+.home-problem-points {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px 35px;
+
+    margin-bottom: 30px;
+}
+
+.home-problem-point {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+}
+
+.home-problem-point span {
+    display: flex;
+
+    color: #71839c;
+
+    font-size: 18px;
+}
+
+.home-problem-point p {
+    margin: 0;
+
+    color: #344054;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* IMAGE */
+
+.home-problem-image {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-problem-image img {
+    display: block;
+
+    width: 100%;
+    max-width: 520px;
+    height: 270px;
+
+    object-fit: contain;
+}
+
+
+@keyframes homeProblemFade {
+
+    from {
+        opacity: 0;
+
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+
+        transform: translateY(0);
+    }
+
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    .home-problem-section {
+        padding: 55px 0;
+    }
+
+    .home-problem-container {
+        max-width: 750px;
+
+        padding: 0 20px;
+    }
+
+    .home-problem-heading h2 {
+        font-size: 31px;
+    }
+
+    .home-problem-grid {
+        grid-template-columns: 290px 1fr;
+
+        gap: 35px;
+    }
+
+    .home-problem-tab {
+        min-height: 64px;
+
+        padding: 14px 17px;
+
+        font-size: 14px;
+    }
+
+    .home-problem-content h3 {
+        font-size: 24px;
+    }
+
+    .home-problem-points {
+        grid-template-columns: 1fr;
+
+        gap: 14px;
+    }
+
+    .home-problem-image img {
+        height: 220px;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .home-problem-section {
+        padding: 45px 0;
+    }
+
+    .home-problem-container {
+        padding: 0 15px;
+    }
+
+    .home-problem-heading {
+        margin-bottom: 30px;
+
+        text-align: center;
+    }
+
+    .home-problem-heading span {
+        margin-bottom: 10px;
+
+        font-size: 13px;
+    }
+
+    .home-problem-heading h2 {
+        font-size: 25px;
+
+        line-height: 1.4;
+    }
+
+    .home-problem-grid {
+        display: block;
+    }
+
+
+    /* TABS */
+
+    .home-problem-tabs {
+        width: 100%;
+
+        margin-bottom: 30px;
+
+        display: flex;
+        flex-direction: row;
+
+        gap: 10px;
+
+        overflow-x: auto;
+
+        padding-bottom: 8px;
+
+        scrollbar-width: none;
+    }
+
+    .home-problem-tabs::-webkit-scrollbar {
+        display: none;
+    }
+
+    .home-problem-tab {
+        width: auto;
+        min-width: 215px;
+        min-height: 58px;
+
+        flex-shrink: 0;
+
+        padding: 13px 15px;
+
+        border-radius: 10px;
+
+        font-size: 13px;
+    }
+
+
+    /* CONTENT */
+
+    .home-problem-content h3 {
+        margin-top: 0;
+
+        font-size: 22px;
+        line-height: 1.4;
+    }
+
+    .home-problem-description {
+        margin-bottom: 24px;
+
+        font-size: 14px;
+    }
+
+    .home-problem-points {
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+
+        margin-bottom: 25px;
+    }
+
+    .home-problem-point p {
+        font-size: 13px;
+    }
+
+    .home-problem-image img {
+        max-width: 100%;
+
+        height: auto;
+
+        max-height: 250px;
+    }
+
+}
+
+
+/* SMALL MOBILE */
+
+@media (max-width: 400px) {
+
+    .home-problem-heading h2 {
+        font-size: 22px;
+    }
+
+    .home-problem-tab {
+        min-width: 195px;
+
+        font-size: 12px;
+    }
+
+    .home-problem-content h3 {
+        font-size: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.home-problem-tab-icon {
+  font-size: 25px;
+  min-width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-problem-tab.active .home-problem-tab-icon {
+  color: #fff;
+}
+
+.home-problem-tab:not(.active) .home-problem-tab-icon {
+  color: #222;
+}

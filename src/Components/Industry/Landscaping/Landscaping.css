@@ -1,0 +1,1085 @@
+/* =====================================
+   LANDSCAPING HERO
+===================================== */
+
+.landscaping-hero {
+  width: 100%;
+  background: #1c3558;
+  color: #ffffff;
+
+  padding: 100px 0 45px;
+}
+
+.landscaping-container {
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+/* ROW */
+
+.landscaping-box {
+  min-height: 430px;
+
+  /* Bootstrap row handle pannum */
+  display: flex;
+  align-items: center;
+
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+/* LEFT CONTENT */
+
+.landscaping-left {
+  padding: 20px 30px;
+}
+
+.landscaping-tag {
+  display: inline-block;
+
+  margin-bottom: 16px;
+  padding: 7px 16px;
+
+  color: #009bea;
+
+  border: 1px solid #315887;
+  border-radius: 30px;
+
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.landscaping-title {
+  width: 100%;
+  max-width: 500px;
+
+  margin: 0 0 25px;
+
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+/* LIST */
+
+.landscaping-list {
+  margin: 0 0 28px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.landscaping-list li {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+
+  margin-bottom: 14px;
+
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.landscaping-list li svg {
+  flex-shrink: 0;
+
+  color: #009bea;
+
+  font-size: 14px;
+}
+
+/* BUTTON */
+
+.landscaping-demo-btn {
+  padding: 13px 30px;
+
+  color: #073eff;
+  background: #ffffff;
+
+  border: none;
+  border-radius: 12px;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.landscaping-demo-btn:hover {
+  transform: translateY(-3px);
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* RIGHT IMAGE */
+
+.landscaping-hero-image {
+  width: 100%;
+  min-height: 350px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+}
+
+.landscaping-hero-image img {
+  display: block;
+
+  width: 100%;
+  max-width: 380px;
+  height: 270px;
+
+  object-fit: cover;
+
+  border-radius: 0;
+}
+
+
+/* =====================================
+   TABLET
+===================================== */
+
+@media (max-width: 991px) {
+
+  .landscaping-hero {
+    padding: 70px 0 45px;
+  }
+
+  .landscaping-container {
+    max-width: 750px;
+
+    padding: 0 25px;
+  }
+
+  .landscaping-box {
+    min-height: auto;
+  }
+
+  .landscaping-left {
+    padding: 25px 20px;
+
+    text-align: center;
+  }
+
+  .landscaping-tag {
+    font-size: 11px;
+  }
+
+  .landscaping-title {
+    max-width: 520px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 27px;
+  }
+
+  .landscaping-list {
+    width: 100%;
+    max-width: 420px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: left;
+  }
+
+  .landscaping-hero-image {
+    min-height: auto;
+
+    margin-top: 20px;
+  }
+
+  .landscaping-hero-image img {
+    max-width: 370px;
+    height: 250px;
+  }
+}
+
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media (max-width: 767px) {
+
+  .landscaping-container {
+    padding: 0 18px;
+
+  }
+
+  .landscaping-left {
+    padding: 20px 5px;
+  }
+
+  .landscaping-tag {
+    padding: 6px 13px;
+
+    font-size: 10px;
+  }
+
+  .landscaping-title {
+    max-width: 350px;
+
+    margin-bottom: 22px;
+
+    font-size: 23px;
+    line-height: 1.4;
+  }
+
+  .landscaping-list {
+    max-width: 330px;
+
+    margin-bottom: 25px;
+  }
+
+  .landscaping-list li {
+    gap: 10px;
+
+    margin-bottom: 12px;
+
+    font-size: 13px;
+  }
+
+  .landscaping-list li svg {
+    font-size: 13px;
+  }
+
+  .landscaping-demo-btn {
+    padding: 12px 27px;
+
+    font-size: 13px;
+  }
+
+  .landscaping-hero-image {
+    padding: 15px 0;
+
+    margin-top: 15px;
+  }
+
+  .landscaping-hero-image img {
+    width: 100%;
+    max-width: 330px;
+    height: 220px;
+
+    object-fit: cover;
+  }
+}
+
+
+/* =====================================
+   SMALL MOBILE
+===================================== */
+
+@media (max-width: 480px) {
+
+  .landscaping-hero {
+    padding-top: 60px;
+  }
+
+  .landscaping-title {
+    max-width: 310px;
+
+    font-size: 21px;
+  }
+
+  .landscaping-list {
+    max-width: 300px;
+  }
+
+  .landscaping-list li {
+    font-size: 12px;
+  }
+
+  .landscaping-hero-image img {
+    max-width: 300px;
+    height: 190px;
+  }
+}
+
+
+
+
+
+/* ---------- VIDEO ---------- */
+.landscaping-video-section {
+  position: relative;
+  height: 300px;
+  padding-top: 30px;
+  color: #ffffff;
+  background: #1c3558;
+
+
+
+}
+
+.landscaping-video-section .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.landscaping-video-title {
+  margin: 0 0 25px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.landscaping-video-box {
+  position: relative;
+  width: 100%;
+  max-width: 550px;
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #000000;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  z-index: 2;
+}
+
+.landscaping-video-box iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+}
+
+/* ---------- STATS ---------- */
+.landscaping-stats-section {
+  padding: 160px 0 30px;
+  background: #ffffff;
+}
+
+.landscaping-stats {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.landscaping-stat-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.landscaping-stat-icon {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #0a94dd;
+  background: #eef8ff;
+  border-radius: 18px;
+  font-size: 28px;
+}
+
+.landscaping-stat-item h3 {
+  margin: 0 0 4px;
+  color: #172b4d;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.landscaping-stat-item p {
+  margin: 0;
+  color: #666666;
+  font-size: 17px;
+}
+
+/* ---------- CASE STUDY ---------- */
+.landscaping-case-section {
+  padding: 50px 0 65px;
+  background: #ffffff;
+}
+
+.landscaping-case-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.landscaping-case-heading {
+  margin-bottom: 40px;
+}
+
+.landscaping-case-heading h2 {
+  max-width: 850px;
+  margin: 0 0 12px;
+  color: #000000;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.landscaping-case-heading p {
+  margin: 0;
+  color: #111111;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.landscaping-case-row {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  /* gap: 10px; */
+}
+
+.landscaping-case-content {
+  max-width: 650px;
+}
+
+.landscaping-numbers {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 30px;
+}
+
+.landscaping-numbers h3 {
+  margin: 0 0 5px;
+  color: #1e3a2f;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.landscaping-numbers p {
+  margin: 0;
+  color: #333333;
+  font-size: 14px;
+}
+
+.landscaping-description {
+  max-width: 650px;
+  margin: 0 0 8px;
+  color: #26354d;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.landscaping-case-link {
+  display: inline-block;
+  margin-bottom: 22px;
+  color: #f5b342;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.landscaping-case-link:hover {
+  text-decoration: underline;
+  color: #e6a63a;
+}
+
+.landscaping-quote {
+  position: relative;
+  max-width: 650px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.landscaping-quote .quote-icon {
+  flex-shrink: 0;
+  color: #b9c8ff;
+  font-size: 28px;
+}
+
+.landscaping-quote p {
+  margin: 0;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.landscaping-user {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.landscaping-user img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.landscaping-user div {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.landscaping-user h4 {
+  margin: 0;
+  color: #222222;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.landscaping-user p {
+  margin: 0;
+  color: #4d5666;
+  font-size: 13px;
+}
+
+.landscaping-case-image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landscaping-case-image img {
+  width: 100%;
+  max-width: 380px;
+  display: block;
+  object-fit: contain;
+}
+
+/* ---------- FEATURES ---------- */
+.landscaping-features-section {
+  background: #dbe7f5;
+  /* padding: 80px 0; */
+}
+
+.landscaping-features-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 35px;
+}
+
+.landscaping-feature-row {
+  width: 100%;
+  min-height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  /* margin-bottom: 70px; */
+}
+
+.landscaping-feature-row:last-child {
+  margin-bottom: 0;
+}
+
+.landscaping-feature-reverse {
+  flex-direction: row-reverse;
+}
+
+.landscaping-feature-content {
+  width: 50%;
+  max-width: 500px;
+}
+
+.landscaping-feature-tag {
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 7px 15px;
+  color: #1e3a2f;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.landscaping-feature-content h2 {
+  max-width: 500px;
+  margin: 0 0 18px;
+  color: #000000;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.landscaping-feature-description {
+  max-width: 500px;
+  margin: 0 0 28px;
+  color: #34445b;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.landscaping-faq-wrapper {
+  width: 100%;
+}
+
+.landscaping-faq-wrapper h4 {
+  margin: 0 0 5px;
+  color: #25334a;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.landscaping-faq-item {
+  width: 100%;
+  border-bottom: 1px solid rgba(30, 58, 47, 0.1);
+}
+
+.landscaping-faq-question {
+  width: 100%;
+  padding: 14px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  color: #000000;
+  background: transparent;
+  border: none;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.landscaping-faq-question svg {
+  flex-shrink: 0;
+  color: #6e7b8d;
+  font-size: 11px;
+}
+
+.landscaping-faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.35s ease, opacity 0.3s ease, padding 0.35s ease;
+}
+
+.landscaping-faq-answer.show {
+  max-height: 150px;
+  opacity: 1;
+  padding-bottom: 14px;
+}
+
+.landscaping-faq-answer p {
+  max-width: 440px;
+  margin: 0;
+  color: #536177;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.landscaping-feature-image {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landscaping-feature-image img {
+  display: block;
+  width: 100%;
+  max-width: 430px;
+  max-height: 380px;
+  object-fit: contain;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+/* Tablet */
+@media (max-width: 991px) {
+  .landscaping-container {
+    max-width: 750px;
+    padding: 25px;
+  }
+
+  .landscaping-box {
+    min-height: auto;
+  }
+
+  .landscaping-left {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .landscaping-list {
+    width: 100%;
+    max-width: 420px;
+    text-align: left;
+  }
+
+  .landscaping-hero-image {
+    margin-top: 40px;
+  }
+
+  .landscaping-hero-image img {
+    max-width: 350px;
+  }
+
+  .landscaping-video-section {
+    height: 270px;
+    padding-top: 28px;
+  }
+
+  .landscaping-video-title {
+    font-size: 24px;
+  }
+
+  .landscaping-video-box {
+    max-width: 500px;
+    border-radius: 22px;
+  }
+
+  .landscaping-stats-section {
+    padding: 130px 25px 60px;
+  }
+
+  .landscaping-stats {
+    max-width: 700px;
+    gap: 20px;
+  }
+
+  .landscaping-stat-item {
+    gap: 14px;
+  }
+
+  .landscaping-stat-icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 15px;
+    font-size: 23px;
+  }
+
+  .landscaping-stat-item h3 {
+    font-size: 26px;
+  }
+
+  .landscaping-stat-item p {
+    font-size: 15px;
+  }
+
+  .landscaping-case-section .container {
+    max-width: 760px;
+    padding: 0 25px;
+  }
+
+  .landscaping-case-heading h2 {
+    font-size: 29px;
+  }
+
+  .landscaping-case-row {
+    min-height: auto;
+  }
+
+  .landscaping-case-content {
+    max-width: 100%;
+  }
+
+  .landscaping-case-image {
+    margin-top: 40px;
+  }
+
+  .landscaping-case-image img {
+    max-width: 350px;
+  }
+
+  .landscaping-features-section {
+    padding: 65px 0;
+  }
+
+  .landscaping-features-container {
+    max-width: 760px;
+    padding: 0 30px;
+  }
+
+  .landscaping-feature-row,
+  .landscaping-feature-reverse {
+    min-height: auto;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 90px;
+  }
+
+  .landscaping-feature-content,
+  .landscaping-feature-image {
+    width: 100%;
+  }
+
+  .landscaping-feature-content {
+    max-width: 620px;
+  }
+
+  .landscaping-feature-image {
+    order: 2;
+  }
+
+  .landscaping-feature-content {
+    order: 1;
+  }
+
+  .landscaping-feature-content h2 {
+    font-size: 30px;
+  }
+
+  .landscaping-feature-image img {
+    max-width: 400px;
+    max-height: 350px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .landscaping-hero {
+    padding-top: 30px;
+    padding-bottom: 35px;
+  }
+
+  .landscaping-container {
+    padding: 20px;
+  }
+
+  .landscaping-left {
+    padding: 10px;
+  }
+
+  .landscaping-tag {
+    padding: 7px 14px;
+    font-size: 11px;
+  }
+
+  .landscaping-title {
+    font-size: 20px;
+  }
+
+  .landscaping-list {
+    max-width: 350px;
+  }
+
+  .landscaping-list li {
+    font-size: 14px;
+  }
+
+  .landscaping-demo-btn {
+    padding: 12px 27px;
+    font-size: 14px;
+  }
+
+  .landscaping-hero-image {
+    margin-top: 30px;
+  }
+
+  .landscaping-hero-image img {
+    max-width: 300px;
+  }
+
+  .landscaping-video-section {
+    height: 220px;
+    padding-top: 25px;
+  }
+
+  .landscaping-video-section .container {
+    padding: 0 18px;
+  }
+
+  .landscaping-video-title {
+    max-width: 320px;
+    margin: 0 auto 22px;
+    font-size: 21px;
+  }
+
+  .landscaping-video-box {
+    max-width: 420px;
+    border-radius: 18px;
+  }
+
+  .landscaping-stats-section {
+    padding: 55px 20px 45px;
+  }
+
+  .landscaping-stats {
+    max-width: 220px;
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .landscaping-stat-item {
+    justify-content: flex-start;
+    gap: 15px;
+  }
+
+  .landscaping-stat-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 13px;
+    font-size: 19px;
+  }
+
+  .landscaping-stat-item h3 {
+    font-size: 22px;
+  }
+
+  .landscaping-stat-item p {
+    font-size: 13px;
+  }
+
+  .landscaping-case-section {
+    padding: 40px 0 50px;
+  }
+
+  .landscaping-case-section .container {
+    max-width: 520px;
+    padding: 0 20px;
+  }
+
+  .landscaping-case-heading h2 {
+    font-size: 25px;
+  }
+
+  .landscaping-case-heading p {
+    font-size: 14px;
+  }
+
+  .landscaping-numbers {
+    gap: 45px;
+  }
+
+  .landscaping-numbers h3 {
+    font-size: 25px;
+  }
+
+  .landscaping-description {
+    font-size: 14px;
+  }
+
+  .landscaping-case-link {
+    font-size: 13px;
+  }
+
+  .landscaping-quote .quote-icon {
+    font-size: 24px;
+  }
+
+  .landscaping-quote p {
+    font-size: 14px;
+  }
+
+  .landscaping-user div {
+    display: block;
+  }
+
+  .landscaping-case-image img {
+    max-width: 300px;
+  }
+
+  .landscaping-features-section {
+    padding: 20px 0;
+  }
+
+  .landscaping-features-container {
+    max-width: 520px;
+    padding: 0 20px;
+  }
+
+  .landscaping-feature-row,
+  .landscaping-feature-reverse {
+    gap: 30px;
+    margin-bottom: 75px;
+  }
+
+  .landscaping-feature-tag {
+    font-size: 10px;
+  }
+
+  .landscaping-feature-content h2 {
+    font-size: 26px;
+  }
+
+  .landscaping-feature-description {
+    font-size: 14px;
+  }
+
+  .landscaping-faq-question {
+    font-size: 13px;
+  }
+
+  .landscaping-faq-answer p {
+    font-size: 12px;
+  }
+
+  .landscaping-feature-image img {
+    max-width: 330px;
+    max-height: 290px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .landscaping-video-section {
+    height: 190px;
+    padding-top: 22px;
+  }
+
+  .landscaping-video-title {
+    max-width: 280px;
+    font-size: 18px;
+  }
+
+  .landscaping-video-box {
+    border-radius: 16px;
+  }
+
+  .landscaping-stats-section {
+    padding: 120px 15px 40px;
+  }
+
+  .landscaping-stats {
+    max-width: 250px;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .landscaping-features-container {
+    padding: 0 17px;
+  }
+
+  .landscaping-feature-row,
+  .landscaping-feature-reverse {
+    margin-bottom: 65px;
+  }
+
+  .landscaping-feature-content h2 {
+    font-size: 23px;
+  }
+
+  .landscaping-feature-description {
+    font-size: 13px;
+  }
+
+  .landscaping-faq-question {
+    font-size: 12px;
+  }
+
+  .landscaping-feature-image img {
+    max-width: 290px;
+    max-height: 260px;
+  }
+}

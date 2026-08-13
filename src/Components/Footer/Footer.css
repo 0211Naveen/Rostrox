@@ -1,0 +1,194 @@
+.footer-section{
+    background:#1d3458;
+    color:#fff;
+    padding:70px 0 20px;
+}
+
+.footer-container{
+    max-width:1700px;
+    padding:0 45px;
+}
+
+/* Logo */
+
+.footer-logo img{
+    width:250px;
+}
+
+/* Links */
+
+.footer-links{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+
+.footer-links li{
+    margin-bottom:22px;
+    cursor:pointer;
+    color:#fff;
+    font-size:15px;
+    transition:.3s;
+}
+
+.footer-links li:hover{
+    color:#2aa6ff;
+}
+
+/* Badges */
+
+.footer-badges{
+    display:flex;
+    gap:14px;
+    justify-content:flex-end;
+    margin-bottom:45px;
+}
+
+.footer-badges img{
+    width:62px;
+    height:62px;
+    object-fit:contain;
+}
+
+/* Social */
+
+.footer-social{
+    display:flex;
+    /* justify-content:flex-end; */
+    gap:18px;
+    margin-bottom:40px;
+}
+
+.footer-social a{
+    width:46px;
+    height:46px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background:#fff;
+    color:#1d3458;
+
+    border-radius:50%;
+
+    font-size:22px;
+
+    transition:.3s;
+}
+
+.footer-social a:hover{
+    background:#0b8de8;
+    color:#fff;
+}
+
+/* Language */
+
+.footer-language{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    gap:15px;
+
+    font-size:22px;
+    cursor:pointer;
+}
+
+/* Bottom */
+
+.footer-section hr{
+    /* margin:35px 0 25px; */
+    border-color:rgba(255,255,255,.15);
+}
+
+.footer-copy{
+    text-align:center;
+    color:#c5d0df;
+    font-size:17px;
+    margin:0;
+}
+
+/* ===========================
+TABLET
+=========================== */
+
+@media(max-width:991px){
+
+.footer-container{
+    padding:0 30px;
+}
+
+.footer-logo{
+    text-align:center;
+}
+
+.footer-logo img{
+    width:220px;
+}
+
+.footer-links{
+    text-align:center;
+}
+
+.footer-badges,
+.footer-social,
+.footer-language{
+    justify-content:center;
+    margin-bottom: 10px;
+}
+
+}
+
+/* ===========================
+MOBILE
+=========================== */
+
+@media(max-width:767px){
+
+.footer-section{
+    padding:50px 0 20px;
+}
+
+.footer-container{
+    padding:0 20px;
+}
+
+.footer-logo img{
+    width:180px;
+}
+
+.footer-links li{
+    margin-bottom:16px;
+    font-size:16px;
+}
+
+.footer-badges{
+    gap:10px;
+    margin-bottom:25px;
+}
+
+.footer-badges img{
+    width:48px;
+    height:48px;
+}
+
+.footer-social{
+    gap:12px;
+    margin-bottom:20px;
+}
+
+.footer-social a{
+    width:40px;
+    height:40px;
+    font-size:18px;
+}
+
+.footer-language{
+    font-size:18px;
+}
+
+.footer-copy{
+    font-size:14px;
+}
+
+}
